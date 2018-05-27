@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: "MunroSmall";
-  src: url("/fonts/MunroSmall.ttf") format('truetype');
+  src: url("fonts/MunroSmall.ttf") format('truetype');
 }
 
 @font-face {
   font-family: "Exo";
-  src: url("/fonts/Exo2-Bold.ttf") format('truetype');
+  src: url("fonts/Exo2-Bold.ttf") format('truetype');
 }
 
 html {
