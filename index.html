@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wizard of Legend Information</title>
+    <!-- Public source files -->
+    <link rel="stylesheet" type="text/css" href="resources/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/jquery-ui.theme.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/tooltipster.bundle.min.css" />
+    <script src="resources/jquery-3.3.1.min.js"></script>
+    <script src="resources/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="resources/tooltipster.bundle.min.js"></script>
+    <!-- Created source files -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <div id="header" class="header">
+      Wizard of Legend
+    </div>
+    <div class="row">
+      <div id="display" class="column left">
+      </div>
+      <div id="content" class="column right">
+        <h1 class="title">Arcana</h1>
+        <div id="div-tabs-arcana">
+        </div>
+        <h1 class="title">Relics</h1>
+        <div id="div-tabs-relics">
+
+        </div>
+        <h1 class="title">Drop Rates</h1>
+        <div id="div-tabs-droprates">
+          <ul>
+            <li><a href="#tab-bosses">Bosses</a></li>
+            <li><a href="#tab-minibosses">Mini Bosses</a></li>
+            <li><a href="#tab-enemies">Enemies</a></li>
+            <li><a href="#tab-decorations">Decorations</a></li>
+          </ul>
+          <div id="tab-bosses">
+            <span id="boss-earth" class="infoclass boss">
+              <img data-name="Earth Lord Atlas" src="img/bosses/boss-earth.png" />
+            </span>
+            <span id="boss-fire" class="infoclass boss">
+              <img data-name="Flame Empress Zeal " src="img/bosses/boss-fire.png" />
+            </span>
+            <span id="boss-ice" class="infoclass boss">
+              <img data-name="Frost Queen Freiya" src="img/bosses/boss-ice.png" />
+            </span>
+            <span id="boss-sura" class="infoclass boss">
+              <img data-name="Master Sura" src="img/bosses/boss-sura.png" />
+            </span>
+          </div>
+          <div id="tab-minibosses">
+            <span id="boss-earth" class="infoclass miniboss">
+              <img data-name="Counter Rogue" src="img/minibosses/miniboss-counter_rogue.png" />
+            </span>
+          </div>
+          <div id="tab-enemies">
+            <span id="enemy-ghoul" class="infoclass enemy">
+              <img data-name="Ghoul" src="img/nonbosses/enemy-ghoul.png" />
+            </span>
+            <span id="enemy-knight" class="infoclass enemy">
+              <img src="img/nonbosses/enemy-knight.png" />
+            </span>
+          </div>
+          <div id="tab-decorations">
+            <span id="decorations-chest" class="infoclass decoration">
+              <img data-name="Chest" src="img/nonbosses/decoration-chest.png" />
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,1277 @@
+{
+	"storePrices": [{
+			"name": "DamageUp",
+			"price": 5
+		},
+		{
+			"name": "EmpowerAllArcanaAtMaxHealth",
+			"price": 6
+		},
+		{
+			"name": "EmpowerArcanaOnStageLoad",
+			"price": 7
+		},
+		{
+			"name": "DamageUpAtLowHealth",
+			"price": 6
+		},
+		{
+			"name": "DamageUpWithInventoryCount",
+			"price": 6
+		},
+		{
+			"name": "DamageUpWithKills",
+			"price": 7
+		},
+
+		{
+			"name": "FireDamageUp",
+			"price": 6
+		},
+		{
+			"name": "AirDamageUp",
+			"price": 6
+		},
+		{
+			"name": "EarthDamageUp",
+			"price": 6
+		},
+		{
+			"name": "LightningDamageUp",
+			"price": 6
+		},
+		{
+			"name": "WaterDamageUp",
+			"price": 6
+		},
+		{
+			"name": "IceStanza",
+			"price": 6
+		},
+
+		{
+			"name": "BlackWolfCoat",
+			"price": 7
+		},
+		{
+			"name": "DamageUpWithDiffElement",
+			"price": 6
+		},
+		{
+			"name": "DamageUpWithSameElement",
+			"price": 6
+		},
+		{
+			"name": "DamageUpWithGold",
+			"price": 5
+		},
+		{
+			"name": "DamageUpWhenHurt",
+			"price": 6
+		},
+		{
+			"name": "DamageUpWithMapReveal",
+			"price": 7
+		},
+
+		{
+			"name": "DamageUpWithCC",
+			"price": 6
+		},
+		{
+			"name": "BurnChanceUp",
+			"price": 6
+		},
+		{
+			"name": "SlowChanceUp",
+			"price": 5
+		},
+		{
+			"name": "PoisonChanceUp",
+			"price": 6
+		},
+		{
+			"name": "ShockChanceUp",
+			"price": 6
+		},
+		{
+			"name": "FreezeChanceUp",
+			"price": 5
+		},
+
+		{
+			"name": "BurnLevelUp",
+			"price": 7
+		},
+		{
+			"name": "PoisonLevelUp",
+			"price": 7
+		},
+		{
+			"name": "ShockLevelUp",
+			"price": 7
+		},
+		{
+			"name": "CritChanceUp",
+			"price": 5
+		},
+		{
+			"name": "CritDamageUp",
+			"price": 6
+		},
+		{
+			"name": "MeleeCritChanceUp",
+			"price": 7
+		},
+
+		{
+			"name": "BasicCancelIncreasesCrit",
+			"price": 7
+		},
+		{
+			"name": "CritAfterEvade",
+			"price": 6
+		},
+		{
+			"name": "CritUpAtLowHealth",
+			"price": 6
+		},
+		{
+			"name": "OutOfCombatCrit",
+			"price": 7
+		},
+		{
+			"name": "SuperCritChance",
+			"price": 6
+		},
+		{
+			"name": "BuffWithOverdrive",
+			"price": 5
+		},
+
+		{
+			"name": "WanderersFigurine",
+			"price": 7
+		},
+		{
+			"name": "ODIncreaseOnUse",
+			"price": 6
+		},
+		{
+			"name": "OverdriveDoubler",
+			"price": 7
+		},
+		{
+			"name": "FireAura",
+			"price": 7
+		},
+		{
+			"name": "LightningAura",
+			"price": 7
+		},
+		{
+			"name": "FrostAura",
+			"price": 7
+		},
+
+		{
+			"name": "DoubleAttackChance",
+			"price": 7
+		},
+		{
+			"name": "ExplosionOnKillChance",
+			"price": 6
+		},
+		{
+			"name": "FreezeOnKillChance",
+			"price": 6
+		},
+		{
+			"name": "SevenFlushFire",
+			"price": 10
+		},
+		{
+			"name": "SevenFlushLightning",
+			"price": 10
+		},
+		{
+			"name": "BuffWithFriendship",
+			"price": 4
+		},
+
+
+
+		{
+			"name": "HealthUp",
+			"price": 5
+		},
+		{
+			"name": "MaxHealthUpOnHeal",
+			"price": 6
+		},
+		{
+			"name": "MaxHealthUpOnTakeDamage",
+			"price": 6
+		},
+		{
+			"name": "HealDropBoostItem",
+			"price": 7
+		},
+		{
+			"name": "HealOnCrit",
+			"price": 6
+		},
+		{
+			"name": "OverdriveToHealth",
+			"price": 8
+		},
+
+		{
+			"name": "HealOnPlatPickup",
+			"price": 8
+		},
+		{
+			"name": "HealWithMapReveal",
+			"price": 8
+		},
+		{
+			"name": "PotionPack",
+			"price": 10
+		},
+		{
+			"name": "ResurrectArcanaLoss",
+			"price": 10
+		},
+		{
+			"name": "DeathProofCrown",
+			"price": 10
+		},
+		{
+			"name": "ElementalResistanceWithArcana",
+			"price": 6
+		},
+
+		{
+			"name": "FireResistanceUp",
+			"price": 7
+		},
+		{
+			"name": "EarthResistanceUp",
+			"price": 7
+		},
+		{
+			"name": "WaterResistanceUp",
+			"price": 7
+		},
+		{
+			"name": "BurnImmune",
+			"price": 6
+		},
+		{
+			"name": "PoisonImmune",
+			"price": 6
+		},
+		{
+			"name": "FreezeImmune",
+			"price": 6
+		},
+
+		{
+			"name": "ArmorUp",
+			"price": 5
+		},
+		{
+			"name": "ArmorUpAtLowHealth",
+			"price": 7
+		},
+		{
+			"name": "ArmorUpWithInventoryCount",
+			"price": 6
+		},
+		{
+			"name": "SequenceDefense",
+			"price": 7
+		},
+		{
+			"name": "DefenseUpOnTakeDamage",
+			"price": 6
+		},
+		{
+			"name": "PaperDefense",
+			"price": 5
+		},
+
+		{
+			"name": "EvadeUp",
+			"price": 5
+		},
+		{
+			"name": "EvadeCrit",
+			"price": 4
+		},
+		{
+			"name": "EvadeUpAtLowHealth",
+			"price": 6
+		},
+		{
+			"name": "MoveSpeedUp",
+			"price": 5
+		},
+		{
+			"name": "HorseMaskItem",
+			"price": 6
+		},
+		{
+			"name": "MoveSpeedUpPerCD",
+			"price": 7
+		},
+
+		{
+			"name": "EnhanceDash",
+			"price": 6
+		},
+		{
+			"name": "DashInvulnerability",
+			"price": 8
+		},
+		{
+			"name": "OverhealGrantsShield",
+			"price": 7
+		},
+		{
+			"name": "OverdriveDefense",
+			"price": 8
+		},
+		{
+			"name": "ShieldWithOverdriveTimeOut",
+			"price": 8
+		},
+		{
+			"name": "ParrySidestep",
+			"price": 6
+		},
+
+		{
+			"name": "IncreaseBuffDuration",
+			"price": 7
+		},
+		{
+			"name": "IgnorePits",
+			"price": 6
+		},
+		{
+			"name": "StatueCamo",
+			"price": 7
+		},
+		{
+			"name": "ReflectProjectileShield",
+			"price": 6
+		},
+		{
+			"name": "CapDamageItem",
+			"price": 7
+		},
+		{
+			"name": "DestroyEnemyProjectilesOnHit",
+			"price": 6
+		},
+
+		{
+			"name": "RootShield",
+			"price": 7
+		},
+		{
+			"name": "ShockShield",
+			"price": 7
+		},
+		{
+			"name": "MindControlOnHurt",
+			"price": 6
+		},
+		{
+			"name": "InvulnerableOnMultiHurt",
+			"price": 6
+		},
+		{
+			"name": "SevenFlushAir",
+			"price": 10
+		},
+		{
+			"name": "SevenFlushEarth",
+			"price": 10
+		},
+
+
+
+		{
+			"name": "PlayerStart",
+			"price": 2
+		},
+		{
+			"name": "ReduceCooldown",
+			"price": 5
+		},
+		{
+			"name": "TozysPocketWatch",
+			"price": 7
+		},
+		{
+			"name": "DashCancelLowersCD",
+			"price": 6
+		},
+		{
+			"name": "AltElementLowersCD",
+			"price": 8
+		},
+		{
+			"name": "ResetCDChance",
+			"price": 7
+		},
+
+		{
+			"name": "FreeCooldownsAtLowHealth",
+			"price": 7
+		},
+		{
+			"name": "KillsLowerCDs",
+			"price": 8
+		},
+		{
+			"name": "FreeDashChargesOnKillChance",
+			"price": 6
+		},
+		{
+			"name": "SummonDurationItem",
+			"price": 6
+		},
+		{
+			"name": "SummonDamageItem",
+			"price": 7
+		},
+		{
+			"name": "SummonCountItem",
+			"price": 8
+		},
+
+		{
+			"name": "FireChargeFamiliarItem",
+			"price": 6
+		},
+		{
+			"name": "AirChargeFamiliarItem",
+			"price": 5
+		},
+		{
+			"name": "EarthChargeFamiliarItem",
+			"price": 6
+		},
+		{
+			"name": "LightningChargeFamiliarItem",
+			"price": 7
+		},
+		{
+			"name": "WaterChargeFamiliarItem",
+			"price": 5
+		},
+		{
+			"name": "KnockbackUp",
+			"price": 7
+		},
+
+		{
+			"name": "OverdriveBuildDecayDown",
+			"price": 7
+		},
+		{
+			"name": "OverdriveDurationUp",
+			"price": 6
+		},
+		{
+			"name": "HealOverdriveItem",
+			"price": 5
+		},
+		{
+			"name": "OverdriveMaxAtLowHealth",
+			"price": 6
+		},
+		{
+			"name": "OverdriveOnTakeDamage",
+			"price": 6
+		},
+		{
+			"name": "EnemyHPBars",
+			"price": 4
+		},
+
+		{
+			"name": "ExtraBasicCombo",
+			"price": 6
+		},
+		{
+			"name": "AutoBasicCombo",
+			"price": 4
+		},
+		{
+			"name": "MeleeBasicNegatesProjectiles",
+			"price": 6
+		},
+		{
+			"name": "AlwaysWinProjectiles",
+			"price": 8
+		},
+		{
+			"name": "SlowEnemyProjectiles",
+			"price": 6
+		},
+		{
+			"name": "BuffOnProjectileNegate",
+			"price": 7
+		},
+
+		{
+			"name": "ExtraSkillCharge",
+			"price": 7
+		},
+		{
+			"name": "IgnoreHurtDuringCast",
+			"price": 5
+		},
+		{
+			"name": "StageMap",
+			"price": 6
+		},
+		{
+			"name": "GoldUp",
+			"price": 5
+		},
+		{
+			"name": "GoldOnKillStreak",
+			"price": 5
+		},
+		{
+			"name": "GoldOnTakeDamage",
+			"price": 5
+		},
+
+		{
+			"name": "RelicDiscount",
+			"price": 4
+		},
+		{
+			"name": "SpellDiscount",
+			"price": 4
+		},
+		{
+			"name": "FreePurchaseChance",
+			"price": 8
+		},
+		{
+			"name": "StoreRestock",
+			"price": 2
+		},
+		{
+			"name": "BuyWithHP",
+			"price": 4
+		},
+		{
+			"name": "PortableTreasure",
+			"price": 6
+		},
+
+		{
+			"name": "PlateEnemyPreventSkills",
+			"price": 9
+		},
+		{
+			"name": "LeatherEnemyPreventSkills",
+			"price": 9
+		},
+		{
+			"name": "ClothEnemyPreventSkills",
+			"price": 9
+		},
+		{
+			"name": "SevenFlushWater",
+			"price": 10
+		},
+		{
+			"name": "RainbowTrail",
+			"price": 4
+		},
+		{
+			"name": "PlayerWin",
+			"price": 1
+		},
+
+
+		{
+			"name": "DoctorPrescription",
+			"price": 8
+		},
+		{
+			"name": "DoctorPlacebo",
+			"price": 8
+		},
+		{
+			"name": "DoctorDiscount",
+			"price": 8
+		},
+		{
+			"name": "DoctorVial",
+			"price": 8
+		},
+		{
+			"name": "FrostFlameStanza",
+			"price": 8
+		},
+		{
+			"name": "WanderersSet",
+			"price": 8
+		},
+
+
+
+		{
+			"name": "GlassCannon",
+			"price": 0
+		},
+		{
+			"name": "Vampiricism",
+			"price": 0
+		},
+		{
+			"name": "HalfGlass",
+			"price": 0
+		},
+		{
+			"name": "MaxHPDownRegenAtLowHP",
+			"price": 0
+		},
+		{
+			"name": "ResurrectRing",
+			"price": 0
+		},
+		{
+			"name": "DoubleToil",
+			"price": 0
+		},
+		{
+			"name": "DoubleTrouble",
+			"price": 0
+		},
+		{
+			"name": "CursedSeal",
+			"price": 0
+		},
+		{
+			"name": "AttackSpeedItem",
+			"price": 0
+		},
+		{
+			"name": "IgnoreDashSlide",
+			"price": 0
+		},
+		{
+			"name": "BasicDamageUpOtherDamageDown",
+			"price": 0
+		},
+		{
+			"name": "DamageUpNoOverdrive",
+			"price": 0
+		},
+		{
+			"name": "DamageUpVsBoss",
+			"price": 0
+		},
+		{
+			"name": "DamageUpStorePriceUp",
+			"price": 0
+		},
+		{
+			"name": "ArmorUpStorePriceUp",
+			"price": 0
+		},
+		{
+			"name": "ArmorUpDamageDown",
+			"price": 0
+		},
+		{
+			"name": "ArmorUpLoseGoldOnHit",
+			"price": 0
+		},
+		{
+			"name": "EnemyHealthDownEnemyDamageUp",
+			"price": 0
+		},
+		{
+			"name": "EnemyHealthDownPlayerHealthDown",
+			"price": 0
+		},
+		{
+			"name": "PlayerEnemyCritChanceUp",
+			"price": 0
+		},
+		{
+			"name": "EvadeUpEnemyDamageUp",
+			"price": 0
+		},
+		{
+			"name": "FullHPOnStartNoHeals",
+			"price": 0
+		},
+		{
+			"name": "HealOnStartZeroGold",
+			"price": 0
+		},
+		{
+			"name": "BankLoan",
+			"price": 0
+		},
+		{
+			"name": "NoPlatinumAllGold",
+			"price": 0
+		},
+		{
+			"name": "FireStanza",
+			"price": 0
+		},
+		{
+			"name": "WanderersDoll",
+			"price": 0
+		},
+
+
+
+
+
+
+		{
+			"name": "ChaosDash",
+			"price": 10
+		},
+		{
+			"name": "UseChaosBasic",
+			"price": 10
+		},
+		{
+			"name": "UseMortalCoil",
+			"price": 10
+		},
+		{
+			"name": "UseVoidShift",
+			"price": 10
+		},
+		{
+			"name": "UseChaosBeam",
+			"price": 10
+		},
+		{
+			"name": "UseChaosCluster",
+			"price": 10
+		},
+		{
+			"name": "UsePhantomKnights",
+			"price": 10
+		},
+		{
+			"name": "UseChaosEraser",
+			"price": 10
+		},
+
+
+
+		{
+			"name": "FlameStrikeBasic",
+			"price": 4
+		},
+		{
+			"name": "UseFireBounce",
+			"price": 4
+		},
+		{
+			"name": "FireDash",
+			"price": 5
+		},
+		{
+			"name": "FireMineDash",
+			"price": 5
+		},
+		{
+			"name": "Berserk",
+			"price": 6
+		},
+		{
+			"name": "UseFireBlast",
+			"price": 7
+		},
+		{
+			"name": "UseCircleBurner",
+			"price": 6
+		},
+		{
+			"name": "UseFlameSwirl",
+			"price": 7
+		},
+		{
+			"name": "UseFlameLeap",
+			"price": 7
+		},
+		{
+			"name": "UseExplosiveCharge",
+			"price": 6
+		},
+		{
+			"name": "UseBlazingBlitz",
+			"price": 6
+		},
+		{
+			"name": "UseBlazingCombo",
+			"price": 6
+		},
+
+		{
+			"name": "SummonHomingMissiles",
+			"price": 5
+		},
+		{
+			"name": "UseFlameReturner",
+			"price": 6
+		},
+		{
+			"name": "ShootFireArc",
+			"price": 5
+		},
+		{
+			"name": "ShootFireball",
+			"price": 6
+		},
+		{
+			"name": "UseFlameSlash",
+			"price": 7
+		},
+		{
+			"name": "UseFlameBuster",
+			"price": 7
+		},
+		{
+			"name": "UseVacuumFlame",
+			"price": 7
+		},
+		{
+			"name": "UseCombustionWave",
+			"price": 8
+		},
+		{
+			"name": "SummonFireWall",
+			"price": 6
+		},
+		{
+			"name": "SummonMeteorStrike",
+			"price": 6
+		},
+		{
+			"name": "UseFireMinion",
+			"price": 8
+		},
+		{
+			"name": "UseFireWard",
+			"price": 5
+		},
+
+
+
+		{
+			"name": "WindSlashBasic",
+			"price": 4
+		},
+		{
+			"name": "AirSpinBasic",
+			"price": 4
+		},
+		{
+			"name": "Dash",
+			"price": 4
+		},
+		{
+			"name": "AirChannelDash",
+			"price": 5
+		},
+		{
+			"name": "UseWindDefense",
+			"price": 6
+		},
+		{
+			"name": "SummonTumbleFist",
+			"price": 7
+		},
+		{
+			"name": "UseDragonBreath",
+			"price": 7
+		},
+		{
+			"name": "SummonTornado",
+			"price": 7
+		},
+		{
+			"name": "UseBabylonScales",
+			"price": 8
+		},
+		{
+			"name": "UseMindControlCloud",
+			"price": 8
+		},
+		{
+			"name": "UseWindSlam",
+			"price": 7
+		},
+		{
+			"name": "UseHeroicLeap",
+			"price": 7
+		},
+
+		{
+			"name": "UseWhirlwind",
+			"price": 6
+		},
+		{
+			"name": "UseSlicingBarrage",
+			"price": 6
+		},
+		{
+			"name": "UseTornadoKick",
+			"price": 6
+		},
+		{
+			"name": "ShootArrow",
+			"price": 5
+		},
+		{
+			"name": "ShootVacuumShot",
+			"price": 6
+		},
+		{
+			"name": "SwordThrow",
+			"price": 6
+		},
+		{
+			"name": "MultiShot",
+			"price": 8
+		},
+		{
+			"name": "UseWindBall",
+			"price": 7
+		},
+		{
+			"name": "UseTwister",
+			"price": 7
+		},
+		{
+			"name": "UseAirWave",
+			"price": 6
+		},
+		{
+			"name": "UseWindMinion",
+			"price": 8
+		},
+		{
+			"name": "UseWindWard",
+			"price": 5
+		},
+
+
+
+		{
+			"name": "EarthSpikeBasic",
+			"price": 4
+		},
+		{
+			"name": "UseRockThrowBasic",
+			"price": 4
+		},
+		{
+			"name": "EarthDash",
+			"price": 5
+		},
+		{
+			"name": "PoisonDash",
+			"price": 5
+		},
+		{
+			"name": "UseEarthEnhance",
+			"price": 6
+		},
+		{
+			"name": "UseShatterStone",
+			"price": 7
+		},
+		{
+			"name": "UseEarthRebound",
+			"price": 7
+		},
+		{
+			"name": "StalwartDefenders",
+			"price": 6
+		},
+		{
+			"name": "SummonBoulderShield",
+			"price": 6
+		},
+		{
+			"name": "UseSpikeRing",
+			"price": 6
+		},
+		{
+			"name": "UseGraspingEarth",
+			"price": 7
+		},
+		{
+			"name": "UseEarthJump",
+			"price": 7
+		},
+
+		{
+			"name": "UseEarthDrill",
+			"price": 7
+		},
+		{
+			"name": "UseShieldCharge",
+			"price": 7
+		},
+		{
+			"name": "UseThrowBoulder",
+			"price": 6
+		},
+		{
+			"name": "UsePoisonBolas",
+			"price": 6
+		},
+		{
+			"name": "UseEarthCascade",
+			"price": 6
+		},
+		{
+			"name": "UseEarthWheel",
+			"price": 7
+		},
+		{
+			"name": "UseDragonStomp",
+			"price": 6
+		},
+		{
+			"name": "SummonChurningEarth",
+			"price": 5
+		},
+		{
+			"name": "UseEarthAxe",
+			"price": 7
+		},
+		{
+			"name": "UseVineWave",
+			"price": 5
+		},
+		{
+			"name": "UseEarthMinion",
+			"price": 8
+		},
+		{
+			"name": "UseEarthWard",
+			"price": 5
+		},
+
+
+
+		{
+			"name": "ShockTouchBasic",
+			"price": 4
+		},
+		{
+			"name": "BoltRailBasic",
+			"price": 4
+		},
+		{
+			"name": "LightningDash",
+			"price": 5
+		},
+		{
+			"name": "ChainedDash",
+			"price": 5
+		},
+		{
+			"name": "UseElectricAura",
+			"price": 6
+		},
+		{
+			"name": "UseLightningFist",
+			"price": 7
+		},
+		{
+			"name": "UseMagSphere",
+			"price": 7
+		},
+		{
+			"name": "UseShockNova",
+			"price": 6
+		},
+		{
+			"name": "UseThunderDrop",
+			"price": 7
+		},
+		{
+			"name": "UsePiercingShock",
+			"price": 7
+		},
+		{
+			"name": "TeleStrike",
+			"price": 6
+		},
+		{
+			"name": "UseVoltSplinter",
+			"price": 6
+		},
+
+		{
+			"name": "UseLightningShuriken",
+			"price": 6
+		},
+		{
+			"name": "UseCurrentBurst",
+			"price": 7
+		},
+		{
+			"name": "UseShockSpear",
+			"price": 8
+		},
+		{
+			"name": "ShootBallLightning",
+			"price": 7
+		},
+		{
+			"name": "ShootBoltClaymore",
+			"price": 6
+		},
+		{
+			"name": "UseThunderFan",
+			"price": 6
+		},
+		{
+			"name": "SummonThunderWave",
+			"price": 5
+		},
+		{
+			"name": "UseIonSpike",
+			"price": 6
+		},
+		{
+			"name": "UseThunderAnchor",
+			"price": 6
+		},
+		{
+			"name": "UseShockLine",
+			"price": 6
+		},
+		{
+			"name": "UseLightningMinion",
+			"price": 8
+		},
+		{
+			"name": "UseLightningWard",
+			"price": 5
+		},
+		{
+			"name": "IceDaggerBasic",
+			"price": 4
+		},
+		{
+			"name": "WaterArcBasic",
+			"price": 4
+		},
+		{
+			"name": "IceDash",
+			"price": 5
+		},
+		{
+			"name": "WaterDash",
+			"price": 6
+		},
+		{
+			"name": "UseCreepingTendril",
+			"price": 7
+		},
+		{
+			"name": "UseWaterBlast",
+			"price": 7
+		},
+		{
+			"name": "CircleStrike",
+			"price": 6
+		},
+		{
+			"name": "SummonSwordStorm",
+			"price": 5
+		},
+		{
+			"name": "UseIceChakram",
+			"price": 6
+		},
+		{
+			"name": "UseWaterSlam",
+			"price": 7
+		},
+		{
+			"name": "FreezingLunge",
+			"price": 7
+		},
+		{
+			"name": "UseAquaPrison",
+			"price": 6
+		},
+		{
+			"name": "UseWaterBounce",
+			"price": 6
+		},
+		{
+			"name": "ThrowIceLance",
+			"price": 6
+		},
+		{
+			"name": "UseWaterBall",
+			"price": 7
+		},
+		{
+			"name": "SummonBubbleBarrage",
+			"price": 5
+		},
+		{
+			"name": "UseFrostFan",
+			"price": 7
+		},
+		{
+			"name": "SummonIceWave",
+			"price": 6
+		},
+		{
+			"name": "UseAquaBeam",
+			"price": 8
+		},
+		{
+			"name": "SummonBlizzard",
+			"price": 6
+		},
+		{
+			"name": "SummonShark",
+			"price": 7
+		},
+		{
+			"name": "SummonIceSeekers",
+			"price": 6
+		},
+		{
+			"name": "UseWaterMinion",
+			"price": 8
+		},
+		{
+			"name": "UseWaterWard",
+			"price": 5
+		}
+	]
+}

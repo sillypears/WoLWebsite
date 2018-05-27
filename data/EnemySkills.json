@@ -1,0 +1,1181 @@
+{
+  "skillStats": [{
+      "ID": ["NeutralLaserOrbAttack"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.5],
+      "knockbackMultiplier": [25],
+      "damage": [25]
+    },
+    {
+      "ID": ["NeutralBlobAttack"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "hitStunDurationModifier": [0.75],
+      "knockbackMultiplier": [10],
+      "damage": [15]
+    },
+    {
+      "ID": ["NeutralMiniBlobAttack"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "hitStunDurationModifier": [0.75],
+      "knockbackMultiplier": [5],
+      "damage": [10]
+    },
+    {
+      "ID": ["NeutralTurretFireball"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "hitStunDurationModifier": [0.75],
+      "knockbackMultiplier": [15],
+      "damage": [10]
+    },
+    {
+      "ID": ["NeutralGhoulAttack"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "hitStunDurationModifier": [0.75],
+      "knockbackMultiplier": [10],
+      "damage": [15]
+    },
+    {
+      "ID": ["NeutralCoffinAttack"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "hitStunDurationModifier": [1.5],
+      "knockbackMultiplier": [35],
+      "damage": [50]
+    },
+    {
+      "ID": ["NeutralGolemAttack"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "hitStunDurationModifier": [1.5],
+      "knockbackMultiplier": [50],
+      "damage": [50]
+    },
+
+
+
+    {
+      "ID": ["NeutralKnightAttack"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "knockbackMultiplier": [25],
+      "damage": [25]
+    },
+    {
+      "ID": ["EarthKnightAttack"],
+      "elementType": ["Earth"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "hitStunDurationModifier": [1.25],
+      "knockbackMultiplier": [25],
+      "damage": [25]
+    },
+    {
+      "ID": ["EarthKnightPoisonBolas"],
+      "elementType": ["Earth"],
+      "subElementType": ["Poison"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.5],
+      "damage": [20],
+      "rootChance": [1],
+      "rootDuration": [0.75],
+      "poisonChance": [1]
+    },
+    {
+      "ID": ["EarthKnightExplosionShield"],
+      "elementType": ["Earth"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "knockbackMultiplier": [35],
+      "damage": [50]
+    },
+    {
+      "ID": ["FlameKnightAttack"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "knockbackMultiplier": [25],
+      "damage": [25]
+    },
+    {
+      "ID": ["FlameKnightFlameShield"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "hitStunDurationModifier": [0.75],
+      "knockbackMultiplier": [20],
+      "damage": [10],
+      "burnChance": [1]
+    },
+    {
+      "ID": ["FlameKnightCombustionWave"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.1],
+      "hitStunDurationModifier": [1.5],
+      "knockbackMultiplier": [20, 40],
+      "knockbackOverwrite": [true],
+      "damage": [10, 30]
+    },
+    {
+      "ID": ["FlameKnightFireWall"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "hitStunDurationModifier": [0.75],
+      "knockbackMultiplier": [15],
+      "damage": [10],
+      "burnChance": [1]
+    },
+    {
+      "ID": ["FrostKnightAttack"],
+      "elementType": ["Water"],
+      "subElementType": ["Ice"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "knockbackMultiplier": [25],
+      "damage": [25]
+    },
+    {
+      "ID": ["FrostKnightIceBash"],
+      "elementType": ["Water"],
+      "subElementType": ["Ice"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "knockbackMultiplier": [45],
+      "knockbackOverwrite": [true],
+      "damage": [25],
+      "freezeChance": [1],
+      "freezeDuration": [1]
+    },
+    {
+      "ID": ["FrostKnightIceField"],
+      "elementType": ["Water"],
+      "showDamageNumber": [false],
+      "showDamageEffect": [false],
+      "targetNames": ["AllyFloorContact"],
+      "canHitStun": [false],
+      "freezeChance": [0.2],
+      "freezeDuration": [0.75]
+    },
+    {
+      "ID": ["NeutralLancerAttack"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "knockbackMultiplier": [35],
+      "damage": [25]
+    },
+    {
+      "ID": ["NeutralLancerLeapAttack"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "knockbackMultiplier": [35],
+      "damage": [35]
+    },
+    {
+      "ID": ["NeutralMageAttack"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.25],
+      "knockbackMultiplier": [20],
+      "damage": [25]
+    },
+    {
+      "ID": ["NeutralMageDelayAttack"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.5],
+      "knockbackMultiplier": [25],
+      "damage": [25]
+    },
+    {
+      "ID": ["OrbChargeFamiliarAttack"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.5],
+      "hitStunDurationModifier": [0.75],
+      "knockbackMultiplier": [25],
+      "damage": [10]
+    },
+    {
+      "ID": ["OrbRevolveFamiliarAttack"],
+      "targetNames": ["AllyHurtBox"],
+      "sameAttackImmunityTime": [0.5],
+      "hitStunDurationModifier": [0.75],
+      "knockbackMultiplier": [10],
+      "damage": [10]
+    },
+    {
+      "ID": ["OrbShootFamiliarAttack"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "hitStunDurationModifier": [0.75],
+      "knockbackMultiplier": [20],
+      "damage": [10]
+    },
+    {
+      "ID": ["FrostMageIceShard"],
+      "elementType": ["Water"],
+      "subElementType": ["Ice"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "knockbackMultiplier": [20],
+      "knockbackOverwrite": [true],
+      "damage": [25],
+      "freezeChance": [0.25],
+      "freezeDuration": [1.25]
+    },
+    {
+      "ID": ["FrostMageFrostBlast"],
+      "elementType": ["Water"],
+      "subElementType": ["Ice"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.5],
+      "knockbackMultiplier": [35],
+      "damage": [30],
+      "freezeChance": [1],
+      "freezeDuration": [1.25]
+    },
+    {
+      "ID": ["FrostMageSummonBlizzard"],
+      "elementType": ["Water"],
+      "subElementType": ["Ice"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.1],
+      "canHitStun": [false],
+      "damage": [5],
+      "freezeChance": [0.1],
+      "freezeDuration": [1]
+    },
+    {
+      "ID": ["EarthMageShootRock"],
+      "elementType": ["Earth"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "hitStunDurationModifier": [1.5],
+      "knockbackMultiplier": [35],
+      "damage": [50]
+    },
+    {
+      "ID": ["EarthMageThrowBoulder"],
+      "elementType": ["Earth"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "knockbackMultiplier": [30],
+      "damage": [50]
+    },
+    {
+      "ID": ["EarthMageEarthWave"],
+      "elementType": ["Earth"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "knockbackMultiplier": [35],
+      "knockbackOverwrite": [true],
+      "damage": [25]
+    },
+    {
+      "ID": ["FlameMageFireArc"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.125],
+      "knockbackMultiplier": [8],
+      "knockbackOverwrite": [true],
+      "damage": [8]
+    },
+    {
+      "ID": ["FlameMageFirePillar"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.5],
+      "knockbackMultiplier": [20],
+      "damage": [30],
+      "burnChance": [1]
+    },
+    {
+      "ID": ["FlameMageIgnitionOrb"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [1],
+      "hitStunDurationModifier": [0.75],
+      "knockbackMultiplier": [15],
+      "damage": [20],
+      "burnChance": [1]
+    },
+    {
+      "ID": ["NeutralArcherAttack"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "knockbackMultiplier": [25],
+      "knockbackOverwrite": [true],
+      "damage": [25]
+    },
+    {
+      "ID": ["NeutralArcherDouble"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "knockbackMultiplier": [20],
+      "knockbackOverwrite": [true],
+      "damage": [12]
+    },
+    {
+      "ID": ["EarthArcherPoisonArrow"],
+      "elementType": ["Earth"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "knockbackMultiplier": [15],
+      "damage": [20],
+      "poisonChance": [1]
+    },
+    {
+      "ID": ["EarthArcherPoisonBomb"],
+      "elementType": ["Earth"],
+      "subElementType": ["Poison"],
+      "showDamageNumber": [false],
+      "showDamageEffect": [false],
+      "targetNames": ["AllyFloorContact"],
+      "sameAttackImmunityTime": [1],
+      "canHitStun": [false],
+      "poisonChance": [1]
+    },
+    {
+      "ID": ["EarthArcherVineWave"],
+      "elementType": ["Earth"],
+      "subElementType": ["Plant"],
+      "targetNames": ["AllyFloorContact"],
+      "sameTargetImmunityTime": [1],
+      "damage": [25],
+      "rootChance": [1],
+      "rootDuration": [1]
+    },
+    {
+      "ID": ["FrostArcherAttack"],
+      "elementType": ["Water"],
+      "subElementType": ["Ice"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.1],
+      "knockbackMultiplier": [10],
+      "knockbackOverwrite": [true],
+      "damage": [10],
+      "freezeChance": [0.1],
+      "freezeDuration": [1]
+    },
+    {
+      "ID": ["FrostArcherArrowShower"],
+      "elementType": ["Water"],
+      "subElementType": ["Ice"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.1],
+      "hitStunDurationModifier": [1.25],
+      "knockbackMultiplier": [25],
+      "damage": [12],
+      "freezeChance": [1],
+      "freezeDuration": [1]
+    },
+    {
+      "ID": ["FrostArcherIceTrap"],
+      "elementType": ["Water"],
+      "subElementType": ["Ice"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [1],
+      "knockbackMultiplier": [-3],
+      "damage": [25],
+      "freezeChance": [1],
+      "freezeDuration": [1.25]
+    },
+    {
+      "ID": ["FlameArcherFireArrow"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "knockbackMultiplier": [25],
+      "knockbackOverwrite": [true],
+      "damage": [12],
+      "burnChance": [1]
+    },
+    {
+      "ID": ["FlameArcherThrowFlame"],
+      "elementType": ["Fire"],
+      "showDamageNumber": [true, false],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0, 0.25],
+      "hitStunDurationModifier": [0.75],
+      "knockbackMultiplier": [30, 0],
+      "damage": [20, 0],
+      "burnChance": [1]
+    },
+    {
+      "ID": ["FlameArcherFireBoomerang"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [1],
+      "knockbackMultiplier": [25],
+      "damage": [25]
+    },
+    {
+      "ID": ["NeutralRogueAttack"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "hitStunDurationModifier": [0.75, 1.125],
+      "knockbackMultiplier": [15, 1],
+      "damage": [15],
+      "criticalHitChance": [0.25, 0.35],
+      "criticalDamageModifier": [2]
+    },
+    {
+      "ID": ["NeutralRogueLunge"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [1],
+      "knockbackMultiplier": [25],
+      "damage": [25],
+      "criticalHitChance": [0.25],
+      "criticalDamageModifier": [2]
+    },
+    {
+      "ID": ["EarthRogueAttack"],
+      "elementType": ["Earth"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "hitStunDurationModifier": [0.75],
+      "knockbackMultiplier": [15],
+      "damage": [15],
+      "poisonChance": [0.25]
+    },
+    {
+      "ID": ["EarthRogueBurrowAttack"],
+      "elementType": ["Earth"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.5],
+      "hitStunDurationModifier": [1.25],
+      "knockbackMultiplier": [25],
+      "damage": [50]
+    },
+    {
+      "ID": ["EarthRogueEarthCaltrop"],
+      "elementType": ["Earth"],
+      "subElementType": ["Poison"],
+      "targetNames": ["AllyFloorContact"],
+      "sameTargetImmunityTime": [0.5],
+      "hitStunDurationModifier": [0.25],
+      "damage": [10],
+      "poisonChance": [1]
+    },
+    {
+      "ID": ["EarthRogueEarthDash"],
+      "elementType": ["Earth"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.5],
+      "hitStunDurationModifier": [2],
+      "damage": [10]
+    },
+    {
+      "ID": ["FrostRogueAttack"],
+      "elementType": ["Water"],
+      "subElementType": ["Ice"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "hitStunDurationModifier": [0.75],
+      "knockbackMultiplier": [15],
+      "damage": [15],
+      "freezeChance": [0.25],
+      "freezeDuration": [0.75]
+    },
+    {
+      "ID": ["FrostRogueThrowDagger"],
+      "elementType": ["Water"],
+      "subElementType": ["Ice"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "knockbackMultiplier": [10],
+      "damage": [25],
+      "freezeChance": [1],
+      "freezeDuration": [1.5]
+    },
+    {
+      "ID": ["FrostRogueIceDecoy"],
+      "elementType": ["Water"],
+      "subElementType": ["Ice"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [1],
+      "knockbackMultiplier": [1],
+      "damage": [25],
+      "freezeChance": [1],
+      "freezeDuration": [1.5]
+    },
+    {
+      "ID": ["FrostRogueIceBomb"],
+      "elementType": ["Water"],
+      "subElementType": ["Ice"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [1],
+      "knockbackMultiplier": [-3],
+      "damage": [25],
+      "freezeChance": [1],
+      "freezeDuration": [1.5]
+    },
+    {
+      "ID": ["FlameRogueAttack"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "hitStunDurationModifier": [0.75],
+      "knockbackMultiplier": [15],
+      "damage": [15],
+      "burnChance": [0.25]
+    },
+    {
+      "ID": ["FlameRogueFireShuriken"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "knockbackMultiplier": [25],
+      "damage": [24],
+      "burnChance": [1]
+    },
+    {
+      "ID": ["FlameRogueFlameRush"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [1],
+      "knockbackMultiplier": [40, 20],
+      "damage": [32, 0],
+      "burnChance": [1]
+    },
+    {
+      "ID": ["FlameRogueFireBlast"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "knockbackMultiplier": [25],
+      "damage": [16],
+      "burnChance": [1]
+    },
+
+
+
+    {
+      "ID": ["SuperKnightAttack"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "hitStunDurationModifier": [1.5],
+      "knockbackMultiplier": [35],
+      "damage": [35]
+    },
+    {
+      "ID": ["SuperKnightLunge"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "hitStunDurationModifier": [2],
+      "knockbackMultiplier": [50],
+      "damage": [75]
+    },
+    {
+      "ID": ["SuperMageAttack"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.25],
+      "knockbackMultiplier": [20],
+      "knockbackOverwrite": [true],
+      "damage": [25]
+    },
+    {
+      "ID": ["SuperMageCircleAttack"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.25],
+      "knockbackMultiplier": [20],
+      "knockbackOverwrite": [true],
+      "damage": [25]
+    },
+    {
+      "ID": ["SuperMageQuickShot"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.25],
+      "knockbackMultiplier": [30],
+      "knockbackOverwrite": [true],
+      "damage": [25]
+    },
+    {
+      "ID": ["SuperSummonerOrbMinion"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.5],
+      "hitStunDurationModifier": [0.75],
+      "knockbackMultiplier": [25],
+      "damage": [15]
+    },
+    {
+      "ID": ["SuperRogueAttack"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "knockbackMultiplier": [15],
+      "damage": [25]
+    },
+    {
+      "ID": ["SuperRogueShuriken"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [1],
+      "knockbackMultiplier": [35],
+      "damage": [25],
+      "criticalHitChance": [0.35],
+      "criticalDamageModifier": [2]
+    },
+    {
+      "ID": ["SuperArcherAttack"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.5],
+      "hitStunDurationModifier": [3],
+      "knockbackMultiplier": [75],
+      "knockbackOverwrite": [true],
+      "damage": [35]
+    },
+    {
+      "ID": ["SuperArcherStrafeShot"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.1],
+      "hitStunDurationModifier": [1.5],
+      "knockbackMultiplier": [15],
+      "knockbackOverwrite": [true],
+      "damage": [15]
+    },
+    {
+      "ID": ["SuperArcherSpreadShot"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.1],
+      "hitStunDurationModifier": [2],
+      "knockbackMultiplier": [40],
+      "knockbackOverwrite": [true],
+      "damage": [25]
+    },
+    {
+      "ID": ["SuperLancerAttack"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "hitStunDurationModifier": [1.5],
+      "knockbackMultiplier": [45],
+      "damage": [35]
+    },
+    {
+      "ID": ["SuperLancerHundredLance"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.1],
+      "hitStunDurationModifier": [2],
+      "knockbackMultiplier": [1],
+      "knockbackOverwrite": [true],
+      "damage": [5]
+    },
+    {
+      "ID": ["SuperLancerRainLance"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.1],
+      "hitStunDurationModifier": [2],
+      "knockbackMultiplier": [25],
+      "knockbackOverwrite": [true],
+      "damage": [7]
+    },
+    {
+      "ID": ["SuperBlobAttack"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [1],
+      "hitStunDurationModifier": [1.5],
+      "knockbackMultiplier": [35],
+      "damage": [50]
+    },
+
+
+
+    {
+      "ID": ["IceBossIceSword"],
+      "elementType": ["Water"],
+      "subElementType": ["Ice"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [1],
+      "hitStunDurationModifier": [1.5],
+      "knockbackMultiplier": [50],
+      "damage": [75],
+      "freezeChance": [1],
+      "freezeDuration": [1.5]
+    },
+    {
+      "ID": ["IceBossIceDash"],
+      "elementType": ["Water"],
+      "subElementType": ["Ice"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.05],
+      "hitStunDurationModifier": [1.5],
+      "knockbackMultiplier": [25],
+      "knockbackOverwrite": [true],
+      "damage": [5],
+      "freezeChance": [1],
+      "freezeDuration": [1]
+    },
+    {
+      "ID": ["IceBossWaterBomb"],
+      "elementType": ["Water"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.1],
+      "knockbackMultiplier": [40],
+      "damage": [35]
+    },
+    {
+      "ID": ["IceBossBlizzard"],
+      "elementType": ["Water"],
+      "subElementType": ["Ice"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.1],
+      "canHitStun": [false],
+      "damage": [10],
+      "freezeChance": [1],
+      "freezeDuration": [1.5]
+    },
+    {
+      "ID": ["IceBossIceLance"],
+      "elementType": ["Water"],
+      "subElementType": ["Ice"],
+      "showDamageNumber": [true, false, true],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.5],
+      "hitStunDurationModifier": [2.5],
+      "knockbackMultiplier": [0, 5, -1],
+      "knockbackOverwrite": [true],
+      "damage": [25, 0, 25],
+      "freezeChance": [0, 0, 1],
+      "freezeDuration": [1.25]
+    },
+    {
+      "ID": ["IceBossAquaBeam"],
+      "elementType": ["Water"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.05],
+      "hitStunDurationModifier": [0.75],
+      "knockbackMultiplier": [25],
+      "knockbackOverwrite": [true],
+      "damage": [10]
+    },
+    {
+      "ID": ["IceBossWaterBarrage"],
+      "elementType": ["Water"],
+      "subElementType": ["Water", "Ice"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0, 0.1],
+      "knockbackMultiplier": [25, 10],
+      "knockbackOverwrite": [true],
+      "damage": [10, 10],
+      "freezeChance": [0, 1],
+      "freezeDuration": [0.5]
+    },
+    {
+      "ID": ["EarthBossLeapAttack"],
+      "elementType": ["Earth"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "hitStunDurationModifier": [3],
+      "knockbackMultiplier": [50],
+      "damage": [50]
+    },
+    {
+      "ID": ["EarthBossEarthWave"],
+      "elementType": ["Earth"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "hitStunDurationModifier": [1.5],
+      "knockbackMultiplier": [35],
+      "knockbackOverwrite": [true],
+      "damage": [25]
+    },
+    {
+      "ID": ["EarthBossRockThrow"],
+      "elementType": ["Earth"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.1],
+      "hitStunDurationModifier": [1.5],
+      "knockbackMultiplier": [50],
+      "knockbackOverwrite": [true],
+      "damage": [50]
+    },
+    {
+      "ID": ["EarthBossDrillAttack"],
+      "elementType": ["Earth"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "hitStunDurationModifier": [3, 1],
+      "knockbackMultiplier": [-3, 50],
+      "knockbackOverwrite": [false, true],
+      "damage": [10, 25]
+    },
+    {
+      "ID": ["EarthBossPoisonBomb"],
+      "elementType": ["Earth"],
+      "subElementType": ["Poison"],
+      "showDamageNumber": [false],
+      "showDamageEffect": [false],
+      "targetNames": ["AllyFloorContact"],
+      "sameTargetImmunityTime": [1],
+      "canHitStun": [false],
+      "poisonChance": [1]
+    },
+    {
+      "ID": ["EarthBossEarthPillar"],
+      "elementType": ["Earth"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.25],
+      "hitStunDurationModifier": [1.5],
+      "knockbackMultiplier": [35],
+      "damage": [30]
+    },
+    {
+      "ID": ["EarthBossEarthClap"],
+      "elementType": ["Earth"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.125],
+      "hitStunDurationModifier": [1.5],
+      "knockbackMultiplier": [5, 35],
+      "knockbackOverwrite": [true],
+      "damage": [25]
+    },
+    {
+      "ID": ["FireBossFireTrail"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.25],
+      "hitStunDurationModifier": [0.75],
+      "knockbackMultiplier": [5],
+      "damage": [10],
+      "burnChance": [1]
+    },
+    {
+      "ID": ["FireBossFireDash"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.125],
+      "hitStunDurationModifier": [1.25],
+      "knockbackMultiplier": [50],
+      "damage": [30],
+      "burnChance": [1]
+    },
+    {
+      "ID": ["FireBossFireCombo"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.125],
+      "hitStunDurationModifier": [1.5, 1.5, 3],
+      "knockbackMultiplier": [25, 25, 75],
+      "knockbackOverwrite": [true],
+      "damage": [10, 20, 30]
+    },
+    {
+      "ID": ["FireBossVacuumExplosion"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.125],
+      "hitStunDurationModifier": [2],
+      "knockbackMultiplier": [-15, 35],
+      "damage": [10, 30],
+      "burnChance": [0, 1]
+    },
+    {
+      "ID": ["FireBossDragonLine"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.05],
+      "damage": [5]
+    },
+    {
+      "ID": ["FireBossFireBarrage"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [1],
+      "hitStunDurationModifier": [1.5],
+      "knockbackMultiplier": [50],
+      "damage": [50]
+    },
+    {
+      "ID": ["FireBossFlareFade"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [1],
+      "knockbackMultiplier": [35],
+      "damage": [16],
+      "burnChance": [1]
+    },
+    {
+      "ID": ["FireBossHeelDrop"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.05],
+      "hitStunDurationModifier": [1.5],
+      "knockbackMultiplier": [20, 50],
+      "knockbackOverwrite": [true],
+      "damage": [10, 30]
+    },
+    {
+      "ID": ["FireBossMeteorStrike"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.5],
+      "hitStunDurationModifier": [1.5],
+      "knockbackMultiplier": [35],
+      "damage": [30]
+    },
+    {
+      "ID": ["LightningBossShockNet"],
+      "elementType": ["Lightning"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "damage": [5],
+      "shockChance": [1]
+    },
+    {
+      "ID": ["AirBossGaleBlast"],
+      "elementType": ["Air"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.125],
+      "hitStunDurationModifier": [3],
+      "knockbackMultiplier": [75],
+      "knockbackOverwrite": [true],
+      "damage": [75],
+      "slowChance": [1],
+      "slowLevel": [3]
+    },
+    {
+      "ID": ["FinalBossFireAttack"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "hitStunDurationModifier": [1.5],
+      "knockbackMultiplier": [20],
+      "knockbackOverwrite": [true],
+      "damage": [18],
+      "burnChance": [1]
+    },
+    {
+      "ID": ["FinalBossAirAttack"],
+      "elementType": ["Air"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "hitStunDurationModifier": [1.5],
+      "knockbackMultiplier": [20, 25, 30, 30],
+      "knockbackOverwrite": [true],
+      "damage": [8, 10, 12, 10]
+    },
+    {
+      "ID": ["FinalBossEarthAttack"],
+      "elementType": ["Earth"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.05],
+      "knockbackMultiplier": [30],
+      "knockbackOverwrite": [true],
+      "damage": [8]
+    },
+    {
+      "ID": ["FinalBossLightningAttack"],
+      "elementType": ["Lightning"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "damage": [10],
+      "shockChance": [1]
+    },
+    {
+      "ID": ["FinalBossWaterAttack"],
+      "elementType": ["Water"],
+      "subElementType": ["Ice"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [1],
+      "knockbackMultiplier": [35],
+      "knockbackOverwrite": [true],
+      "damage": [25],
+      "freezeChance": [1],
+      "freezeDuration": [1]
+    },
+    {
+      "ID": ["FinalBossChaosWave"],
+      "elementType": ["Chaos"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.025],
+      "knockbackMultiplier": [-1, 50],
+      "damage": [5, 25]
+    },
+    {
+      "ID": ["FinalBossChaosBeam"],
+      "elementType": ["Chaos"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.025],
+      "knockbackMultiplier": [1, 50],
+      "knockbackOverwrite": [true],
+      "damage": [5, 25]
+    },
+    {
+      "ID": ["FinalBossChaosGrab"],
+      "elementType": ["Chaos"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [3, 3, 0.025, 0.25],
+      "hitStunDurationModifier": [4, 4, 1, 1.25],
+      "knockbackMultiplier": [0, 0, -1, 75],
+      "damage": [5, 5, 5, 25]
+    },
+    {
+      "ID": ["FinalBossChaosBall"],
+      "elementType": ["Chaos"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [1, 0],
+      "hitStunDurationModifier": [4, 1],
+      "knockbackMultiplier": [50, 10],
+      "knockbackOverwrite": [true, false],
+      "damage": [25, 5]
+    },
+
+
+
+
+
+    {
+      "ID": ["BurnStatus"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyHurtBox"],
+      "canHitStun": [false],
+      "damage": [2],
+      "duration": [2.05],
+      "damageInterval": [0.25]
+    },
+    {
+      "ID": ["ShockStatus"],
+      "elementType": ["Lightning"],
+      "targetNames": ["AllyHurtBox"],
+      "damage": [2],
+      "duration": [0.8],
+      "damageInterval": [0.125]
+    },
+    {
+      "ID": ["PoisonStatus"],
+      "elementType": ["Earth"],
+      "subElementType": ["Poison"],
+      "targetNames": ["AllyHurtBox"],
+      "hitStunDurationModifier": [0.25],
+      "damage": [5],
+      "duration": [7.55],
+      "damageInterval": [1.5]
+    },
+
+
+
+
+
+    {
+      "ID": ["HazardExplosiveBarrel"],
+      "targetNames": ["AllyHurtBox", "EnemyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [1],
+      "knockbackMultiplier": [35],
+      "damage": [35]
+    },
+    {
+      "ID": ["HazardFire"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyFloorContact", "EnemyFloorContact", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [1],
+      "knockbackMultiplier": [10],
+      "damage": [14],
+      "criticalHitChance": [0],
+      "burnChance": [1]
+    },
+    {
+      "ID": ["HazardFireWall"],
+      "elementType": ["Fire"],
+      "targetNames": ["AllyFloorContact", "EnemyFloorContact", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [1],
+      "hitStunDurationModifier": [0.75],
+      "knockbackMultiplier": [15],
+      "damage": [10],
+      "criticalHitChance": [0],
+      "burnChance": [1]
+    },
+    {
+      "ID": ["HazardIce"],
+      "elementType": ["Water"],
+      "subElementType": ["Ice"],
+      "targetNames": ["AllyFloorContact", "EnemyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.1],
+      "canHitStun": [false],
+      "damage": [5],
+      "criticalHitChance": [0],
+      "freezeChance": [0.08],
+      "freezeDuration": [0.75]
+    },
+    {
+      "ID": ["HazardIceShard"],
+      "elementType": ["Water"],
+      "subElementType": ["Ice"],
+      "targetNames": ["AllyHurtBox", "EnemyHurtBox", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.5],
+      "knockbackMultiplier": [20],
+      "knockbackOverwrite": [true],
+      "damage": [15],
+      "criticalHitChance": [0],
+      "freezeChance": [0.2],
+      "freezeDuration": [1]
+    },
+    {
+      "ID": ["HazardEarth"],
+      "elementType": ["Earth"],
+      "subElementType": ["Poison"],
+      "showDamageNumber": [false],
+      "showDamageEffect": [false],
+      "targetNames": ["AllyFloorContact", "EnemyFloorContact"],
+      "sameTargetImmunityTime": [1],
+      "canHitStun": [false],
+      "criticalHitChance": [0],
+      "poisonChance": [1]
+    },
+    {
+      "ID": ["HazardBoulderDrop"],
+      "elementType": ["Earth"],
+      "targetNames": ["AllyFloorContact", "EnemyFloorContact", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [1],
+      "hitStunDurationModifier": [1, 2.5],
+      "knockbackMultiplier": [5, 30],
+      "damage": [10, 25],
+      "criticalHitChance": [0]
+    },
+    {
+      "ID": ["FloorSpike"],
+      "targetNames": ["AllyFloorContact", "EnemyFloorContact"],
+      "sameTargetImmunityTime": [0.25],
+      "knockbackMultiplier": [25],
+      "damage": [25],
+      "criticalHitChance": [0]
+    },
+    {
+      "ID": ["FloorSpikeStatic"],
+      "targetNames": ["AllyFloorContact", "EnemyFloorContact"],
+      "sameTargetImmunityTime": [0.25],
+      "knockbackMultiplier": [25],
+      "damage": [25],
+      "criticalHitChance": [0]
+    },
+    {
+      "ID": ["KnockbackWall"],
+      "elementType": ["Earth"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.5],
+      "hitStunDurationModifier": [1.25],
+      "knockbackMultiplier": [10],
+      "damage": [25]
+    },
+    {
+      "ID": ["KnockbackWallTargetOnly"],
+      "elementType": ["Earth"],
+      "targetNames": ["AllyFloorContact"],
+      "sameAttackImmunityTime": [0.5],
+      "hitStunDurationModifier": [1.25],
+      "knockbackMultiplier": [10],
+      "damage": [25]
+    },
+    {
+      "ID": ["EarthExplosion"],
+      "elementType": ["Earth"],
+      "targetNames": ["AllyFloorContact", "DestructibleHurtBox"],
+      "sameTargetImmunityTime": [0.25],
+      "hitStunDurationModifier": [2],
+      "knockbackMultiplier": [25],
+      "damage": [50]
+    },
+    {
+      "ID": ["PoisonBall"],
+      "elementType": ["Earth"],
+      "subElementType": ["Poison"],
+      "targetNames": ["AllyHurtBox", "DestructibleHurtBox"],
+      "sameAttackImmunityTime": [0.25],
+      "knockbackMultiplier": [10],
+      "damage": [5],
+      "poisonChance": [1]
+    }
+  ]
+}       
