@@ -38,7 +38,7 @@ h1, .title {
   height: 100vh;
   background-color: #aaa;
   border-radius: 5px;
-  font-family: "Comic Sans MS";
+  font-family: "MunroSmall";
   font-size: 1.4em;
 }
 #display > div:last-child {
