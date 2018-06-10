@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: "MunroSmall";
-  src: url("fonts/MunroSmall.ttf") format('truetype');
+  src: url("/fonts/MunroSmall.ttf") format('truetype');
 }
 
 @font-face {
   font-family: "Exo";
-  src: url("fonts/Exo2-Bold.ttf") format('truetype');
+  src: url("/fonts/Exo2-Bold.ttf") format('truetype');
 }
 
 html {
@@ -119,4 +119,13 @@ h1, .title {
 
 .spell-id {
   padding: 0px 0px 5px 0px;
+}
+
+.fieryRime, .pft {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+
 }

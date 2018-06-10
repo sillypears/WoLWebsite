@@ -76,9 +76,26 @@ $(function() {
   }
 
   function buildItems(items) {
-    var arr = {};
+    var ids = {};
+    var names = {};
+
     h = $('#div-tabs-relics').html();
     //bad_spells = ["Negation Source", "Chronostasis", "Agents of Chaos",  "Chaotic Buster"];
+    $.each(items, function(index, value) {
+      ids[value.itemID] = value;
+      names[value.displayName] = value;
+
+    });
+    Object.keys(names).sort().forEach(function(v, i){
+      console.log(v,names[v]);
+      name = names[v].displayName;
+      id = names[v].itemID;
+      lname = name.replace(/\s/g, "");
+      lname = lname.toLowerCase();
+      h = h + "<span id=\"relic-"+ lname + "\" class=\"infoclass relics\">        <img data-id=\"" + id + "\" src=\"img/relics/"+ name +".png\" />      </span>"
+
+    });
+    /*
     $.each(items, function(index, value) {
       name = value.displayName;
       //if ($.inArray(name, bad_spells) == -1) {
@@ -86,12 +103,13 @@ $(function() {
         lname = name.replace(/\s/g, "");
         lname = lname.toLowerCase();
         h = h + "<span id=\"relic-"+ lname + "\" class=\"infoclass relics\">        <img data-id=\"" + id + "\" src=\"img/relics/"+ name +".png\" />      </span>"
-        arr[id] = value;
       //}
     });
+    */
 
     $('#div-tabs-relics').html(h);
-    return arr;
+    console.log();
+    return ids;
   }
 
   function buildArcana(spells) {
@@ -109,6 +127,7 @@ $(function() {
       }
     });
     $('#div-tabs-arcana').html(h);
+
     return arr;
   }
 
@@ -117,13 +136,11 @@ $(function() {
     $.each(prices, function(index, value) {
       arr[value.name] = value;
     });
-    console.log(arr);
     return arr;
   }
 
   function calcUnlockPrice(id) {
     var tier = getItemTier(id);
-    console.log(tier);
     cost = storeArray[id].price + ((tier + 1) * 4)
     return (cost < 10) ? 10 : cost;
   }
@@ -132,6 +149,7 @@ $(function() {
   }
   function displayItems(ele, items) {
     eleID = ele.children()[0].dataset.id;
+
     if ($.inArray(eleID, items)) {
       name = items[eleID].displayName;
       id = items[eleID].itemID;

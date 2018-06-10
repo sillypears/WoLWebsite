@@ -3,223 +3,309 @@
       "itemID": "HealingPotion",
       "displayName": "Healing Potion",
       "description": "Restores some health!",
-      "details": "Restores 40% of max health initially, then 5% less on each subsequent use. 1% is the minimum."
+      "details": "Restores 40% of max health initially, then 5% less on each subsequent use. 1% is the minimum.",
+      "category": "Misc"
     },
     {
       "itemID": "DamageUp",
       "displayName": "Amulet of Sundering",
       "description": "Increases all damage dealt!",
-      "details": "Increases all arcana damage by 8%"
+      "details": "Increases all arcana damage by 8%",
+      "category": "Attack"
     },
     {
       "itemID": "FireDamageUp",
       "displayName": "Ifrit's Matchstick",
-      "description": "Increases fire damage!"
+      "description": "Increases fire damage!",
+      "details": "Increases all fire damage by 12%",
+      "category": "Attack"
     },
     {
       "itemID": "AirDamageUp",
       "displayName": "Rudra's Pinwheel",
-      "description": "Increases air damage!"
+      "description": "Increases air damage!",
+      "details": "Increases all air damage by 12%",
+      "category": "Attack"
     },
     {
       "itemID": "EarthDamageUp",
       "displayName": "Gaia's Shovel",
-      "description": "Increases earth damage!"
+      "description": "Increases earth damage!",
+      "details": "Increases all earth damage by 12%",
+      "category": "Attack"
     },
     {
       "itemID": "LightningDamageUp",
       "displayName": "Battery of Taranis",
-      "description": "Increases lightning damage!"
+      "description": "Increases lightning damage!",
+      "details": "Increases all lightning damage by 12%",
+      "category": "Attack"
     },
     {
       "itemID": "WaterDamageUp",
       "displayName": "Shiva's Water Bottle",
-      "description": "Increases water damage!"
+      "description": "Increases water damage!",
+      "details": "Increases all water damage by 12%",
+      "category": "Attack"
     },
     {
       "itemID": "BurnLevelUp",
       "displayName": "Agni's Sparkler",
-      "description": "Increases ferocity of your burn status effects!"
+      "description": "Increases ferocity of your burn status effects!",
+      "details": "Increases burn level status affects by 1",
+      "category": "Attack"
     },
     {
       "itemID": "ShockLevelUp",
       "displayName": "Indra's Copper Pipe",
-      "description": "Increases duration of your shock status effects!"
+      "description": "Increases duration of your shock status effects!",
+      "details": "Increases shock level status affects by 1",
+      "category": "Attack"
     },
     {
       "itemID": "PoisonLevelUp",
       "displayName": "Devi's Bug Spray",
-      "description": "Increases potency of your poison status effects!"
+      "description": "Increases potency of your poison status effects!",
+      "details": "Increases poison level status affects by 1",
+      "category": "Attack"
     },
     {
       "itemID": "BurnChanceUp",
       "displayName": "Phoenix Talon",
-      "description": "Adds a chance to burn foes!"
+      "description": "Adds a chance to burn foes!",
+      "details": "Chance to burn enemies increased by 6.25%",
+      "category": "Attack"
     },
     {
       "itemID": "SlowChanceUp",
       "displayName": "Nerite Shell",
-      "description": "Adds a chance to slow foes!"
+      "description": "Adds a chance to slow foes!",
+      "details": "Chance to burn enemies increased by 6.25%",
+      "category": "Attack"
     },
     {
       "itemID": "PoisonChanceUp",
       "displayName": "Noxious Dappercap",
-      "description": "Adds a chance to poison foes!"
+      "description": "Adds a chance to poison foes!",
+      "details": "Chance to poison enemies increased by 6.25%",
+      "category": "Attack"
     },
     {
       "itemID": "ShockChanceUp",
       "displayName": "Tesla Coil",
-      "description": "Adds a chance to shock foes!"
+      "description": "Adds a chance to shock foes!",
+      "details": "Chance to shock enemies increased by 6.25%",
+      "category": "Attack"
     },
     {
       "itemID": "FreezeChanceUp",
       "displayName": "Permafrost Cube",
-      "description": "Adds a chance to freeze foes!"
+      "description": "Adds a chance to freeze foes!",
+      "details": "Chance to freeze enemies increased by 6.25%",
+      "category": "Attack"
     },
     {
       "itemID": "CritChanceUp",
       "displayName": "Analytical Monocle",
-      "description": "Increases critical hit chance!"
+      "description": "Increases critical hit chance!",
+      "details": "Chance for arcana to crit increased by 8%",
+      "category": "Attack"
     },
     {
       "itemID": "MeleeCritChanceUp",
       "displayName": "Dark Katana",
-      "description": "Designed by Artisan Mathosse Feadur, this relic triples the critical hit chance for all melee arcana!"
+      "description": "Designed by Artisan Mathosse Feadur, this relic triples the critical hit chance for all melee arcana!",
+      "details": "Chance for melee to crit is doubled",
+      "category": "Attack"
     },
     {
       "itemID": "DamageUpAtLowHealth",
       "displayName": "Berserker's Helm",
-      "description": "Damage increased while at low health!"
+      "description": "Damage increased while at low health!",
+      "details": "Damage increased by 20% when health is 30% or lower",
+      "category": "Attack"
     },
     {
       "itemID": "DamageUpWithSameElement",
       "displayName": "Royal Flush",
-      "description": "Equipping arcana of the same element increases damage!"
+      "description": "Equipping arcana of the same element increases damage!",
+      "details": "Increases arcana damage by 4% for that element. Requires at least a pair of matching arcana elements. Only applies to the highest element count",
+      "category": "Attack"
     },
     {
       "itemID": "DamageUpWithDiffElement",
       "displayName": "Captain's Ring",
-      "description": "Equipping arcana of differing elements increases damage!"
+      "description": "Equipping arcana of differing elements increases damage!",
+      "details": "Increases arcana damage by 4%. Requires at least 2 different element types",
+      "category": "Attack"
     },
     {
       "itemID": "DamageUpWithGold",
       "displayName": "Dagger of Midas",
-      "description": "Increases damage based on how much gold you currently have!"
+      "description": "Increases damage based on how much gold you currently have!",
+      "details": "Increases arcana damage by 0.04% for each gold you are holding. Gives max of 20% increase (500 gold)",
+      "category": "Attack"
     },
     {
       "itemID": "BuffWithFriendship",
       "displayName": "Friendship Bracelet",
-      "description": "Increase damage and movement speed when you're with a true friend!"
+      "description": "Increase damage and movement speed when you're with a true friend!",
+      "details": "Increases damage by 10%. Increases speed by 15%. Requires 2 players",
+      "category": "Attack"
     },
     {
       "itemID": "BuffWithOverdrive",
       "displayName": "Autograph Pad",
-      "description": "Damage and movement speed is increased while signature arcana is charged!"
+      "description": "Damage and movement speed is increased while signature arcana is charged!",
+      "details": "Increases damage by 20%. Increases speed by 24%. Requires full overdrive meter",
+      "category": "Attack"
     },
     {
       "itemID": "SevenFlushFire",
       "displayName": "Neve's Ruby",
-      "description": "Holding seven fire arcana increases damage! All arcana burns foes!"
+      "description": "Holding seven fire arcana increases damage! All arcana burns foes!",
+      "details": "Fire arcana damage increased by 30%. Chance to burn increased to 100%. Burn level increased by 1. Must be holding 7 fire arcana",
+      "category": "Attack"
     },
     {
       "itemID": "SevenFlushLightning",
       "displayName": "Neve's Citrine",
-      "description": "Holding seven lightning arcana increases critical chance! All arcana shocks foes!"
+      "description": "Holding seven lightning arcana increases critical chance! All arcana shocks foes!",
+      "details": "Fire lightning damage increased by 30%. Chance to shock increased to 100%. Shock level increased by 1. Must be holding 7 lightning arcana",
+      "category": "Attack"
     },
     {
       "itemID": "IceStanza",
       "displayName": "Stanza of Frost",
-      "description": "Increases ice damage! First half of the [<color=#FFCC00>Poem of Fiery Rime</color>]."
+      "description": "Increases ice damage! First half of the <span class=\"fieryRime\">Poem of Fiery Rime</span>",
+      "details": "Increases ice damage by 15%. Removed when Stanza of Fire is picked up to create <span class=\"fieryRime\">Poem of Fiery Rime</span>",
+      "category": "Attack"
     },
     {
       "itemID": "LightningAura",
       "displayName": "Sleepy Thunderstone",
-      "description": "Summons an aura that calls down lightning on nearby enemies!"
+      "description": "Summons an aura that calls down lightning on nearby enemies!",
+      "details": "Creates an aura that has a 10% chance to cast lightning on nearby enemies",
+      "category": "Attack"
     },
     {
       "itemID": "FrostAura",
       "displayName": "Lotus Froststone",
-      "description": "Summons an aura that freezes nearby enemies!"
+      "description": "Summons an aura that freezes nearby enemies!",
+      "details": "Creates an aura that has a 10% chance to freeze nearby enemies",
+      "category": "Attack"
     },
     {
       "itemID": "FireAura",
       "displayName": "Cobalt Firestone",
-      "description": "Summons an aura that damages nearby enemies!"
+      "description": "Summons an aura that damages nearby enemies!",
+      "details": "Creates an aura that has a 10% chance to cast fire on nearby enemies",
+      "category": "Attack"
     },
     {
       "itemID": "DamageUpWithInventoryCount",
       "displayName": "Merchant's Cart",
-      "description": "Increase damage based on number of relics in inventory!"
+      "description": "Increase damage based on number of relics in inventory!",
+      "details": "Arcana damage increased 1.25% per relic in inventory",
+      "category": "Attack"
     },
     {
       "itemID": "DamageUpWithKills",
       "displayName": "Sinister Ledger",
-      "description": "Designed by Artisan Steven Wu, this relic increases all damage for every enemy defeated, but loses effectiveness when taking damage!"
+      "description": "Designed by Artisan Steven Wu, this relic increases all damage for every enemy defeated, but loses effectiveness when taking damage!",
+      "details": "Arcana damage increased by 1% per kill, with a max damage increase of 20% (20 kills). Every time you take a hit, damage is reduced by 0.5%)",
+      "category": "Attack"
     },
     {
       "itemID": "CritAfterEvade",
       "displayName": "Covert Ops Mask",
-      "description": "After evading an attack, all of your attacks are critical hits for a short duration!"
+      "description": "After evading an attack, all of your attacks are critical hits for a short duration!",
+      "details": "After evading, gain a 3 second window where all attacks are crits.",
+      "category": "Attack"
     },
     {
       "itemID": "ExplosionOnKillChance",
       "displayName": "Whimsical Explodium",
-      "description": "Adds a chance that enemies will explode when defeated!"
+      "description": "Adds a chance that enemies will explode when defeated!",
+      "details": "Adds a 20% chance that enemies will explode with a 3x scaled radius",
+      "category": "Attack"
     },
     {
       "itemID": "DamageUpWithCC",
       "displayName": "Hunter's Stiletto",
-      "description": "Increase damage against foes that are inflicted with a status ailment!"
+      "description": "Increase damage against foes that are inflicted with a status ailment!",
+      "details": "Damage is increased 12% while attacking a frozen, stunned or having any damage over time status ailment",
+      "category": "Attack"
     },
     {
       "itemID": "EmpowerArcanaOnStageLoad",
       "displayName": "Fortune Cookie",
-      "description": "Randomly empowers an arcana at the beginning of each stage!"
+      "description": "Randomly empowers an arcana at the beginning of each stage!",
+      "details": "",
+      "category": "Attack"
     },
     {
       "itemID": "DamageUpWhenHurt",
       "displayName": "Berserker's Axe",
-      "description": "Increases damage dealt for a short while after taking damage!"
+      "description": "Increases damage dealt for a short while after taking damage!",
+      "details": "Damaged increased by 20% during a 3 second window after getting hit",
+      "category": "Attack"
     },
     {
       "itemID": "BasicCancelIncreasesCrit",
       "displayName": "Tapping Gloves",
-      "description": "Following up a basic arcana with another arcana increases its critical hit chance!"
+      "description": "Following up a basic arcana with another arcana increases its critical hit chance!",
+      "details": "Critical hit chance increased 25% when using a non-basic arcana directly after a basic arcana",
+      "category": "Attack"
     },
     {
       "itemID": "CritUpAtLowHealth",
       "displayName": "Auditor's Talisman",
-      "description": "Increases critical hit chance at low health!"
+      "description": "Increases critical hit chance at low health!",
+      "details": "Damage increased 25% when health is 30% or lower",
+      "category": "Attack"
     },
     {
       "itemID": "BlackWolfCoat",
       "displayName": "Ebon Wolf's Cloak",
-      "description": "Increases fire and lightning arcana damage, but receive more damage from water and earth attacks!"
+      "description": "Increases fire and lightning arcana damage, but receive more damage from water and earth attacks!",
+      "details": "Increases fire and lightning damage by 15%. Decreases water and earth damage by 15%",
+      "category": "Attack"
     },
     {
       "itemID": "EmpowerAllArcanaAtMaxHealth",
       "displayName": "Idealist's Mirror",
-      "description": "All arcana are empowered when at full health!"
+      "description": "All arcana are empowered when at full health!",
+      "details": "When health is full, all arcana are empowered",
+      "category": "Attack"
     },
     {
       "itemID": "OverdriveDoubler",
       "displayName": "Secret Wild Card",
-      "description": "Your signature takes longer to charge, but can now be used twice on a single charge!"
+      "description": "Your signature takes longer to charge, but can now be used twice on a single charge!",
+      "details": "Overdrive builds 25% slower, decays 50% faster, but can be used twice on a single charge",
+      "category": "Attack"
     },
     {
       "itemID": "CritDamageUp",
       "displayName": "Assassin's Blade",
-      "description": "Increases critical hit damage!"
+      "description": "Increases critical hit damage!",
+      "details": "Increases crit hit damage by 50%",
+      "category": "Attack"
     },
     {
       "itemID": "WanderersFigurine",
       "displayName": "Wanderer's Mechanism",
-      "description": "Increases the damage of your signature arcana! Core of the [<color=#FFCC00>Perfect Time Crystal</color>]."
+      "description": "Increases the damage of your signature arcana! Core of the <span class=\"pft\">Perfect Time Crystal</span>].",
+      "details": "Increases signature arcana damage by 25%. Removed when Volatile Gemstone is picked up and replaced by the Perfect Time Crystal",
+      "category": "Attack"
     },
     {
       "itemID": "DamageUpWithMapReveal",
       "displayName": "Cartographer's Quill",
-      "description": "Increases damage based on how much of the map you have revealed! Damage increase lasts for the entire trial."
+      "description": "Increases damage based on how much of the map you have revealed! Damage increase lasts for the entire trial.",
+      "details": "Damaged increase 4% for each % of map revealed",
+      "category": "Attack"
     },
     {
       "itemID": "FreezeOnKillChance",
