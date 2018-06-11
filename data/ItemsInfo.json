@@ -310,270 +310,373 @@
     {
       "itemID": "FreezeOnKillChance",
       "displayName": "Special Snowflake",
-      "description": "Defeated enemies have a chance to explode and freeze nearby enemies!"
+      "description": "Defeated enemies have a chance to explode and freeze nearby enemies!",
+      "details": "20% chance for enemies to explode on death and freeze nearby enemies. Arcana casts the same spell as Lotus Froststone",
+      "category": "Attack"
     },
     {
       "itemID": "OutOfCombatCrit",
       "displayName": "Singing Bowl",
-      "description": "Not using arcana for a short period of time causes your next spell to be a critical hit!"
+      "description": "Not using arcana for a short period of time causes your next spell to be a critical hit!",
+      "details": "Next arcana attack will crit after not using arcana for 7 seconds. Excludes dashing and using overdrive spells",
+      "category": "Attack"
     },
     {
       "itemID": "DoubleAttackChance",
       "displayName": "Sidewinder's Badge",
-      "description": "All melee basic arcana have a secondary hit that deals reduced damage!"
+      "description": "All melee basic arcana have a secondary hit that deals reduced damage!",
+      "details": "Adds a 2nd hit for all basic arcana that hits for 25% less damage",
+      "category": "Attack"
     },
     {
       "itemID": "SuperCritChance",
       "displayName": "Dice of the Nemesis",
-      "description": "Adds a small chance of dealing massive damage with your critical hits!"
+      "description": "Adds a small chance of dealing massive damage with your critical hits!",
+      "details": "Adds a 2% chance that a crit attack will deal an additional 300 damage",
+      "category": "Attack"
     },
     {
       "itemID": "ODIncreaseOnUse",
       "displayName": "Ancient Fountain Pen",
-      "description": "Your charged signature arcana deals more damage every time you use it!"
+      "description": "Your charged signature arcana deals more damage every time you use it!",
+      "details": "Overdrive arcana use increases 2% on each use (overdrive only), up to 40%",
+      "category": "Attack"
     },
-
-
-
     {
       "itemID": "HealthUp",
       "displayName": "Giant's Heart",
-      "description": "Increases max health!"
+      "description": "Increases max health!",
+      "details": "Increases max health by 10%",
+      "category": "Defense"
     },
     {
       "itemID": "ArmorUp",
       "displayName": "Euphie's Shawl",
-      "description": "Increases armor!"
+      "description": "Increases armor!",
+      "details": "Increases armor by 5%",
+      "category": "Defense"
     },
     {
       "itemID": "ArmorUpAtLowHealth",
       "displayName": "Armor of Resolve",
-      "description": "Increases armor while at low health!"
+      "description": "Increases armor while at low health!",
+      "details": "Increases armor by 20% when health is at 30% or lower",
+      "category": "Defense"
     },
     {
       "itemID": "EvadeUp",
       "displayName": "Antiquated Tabi",
-      "description": "Adds a small chance to evade attacks!"
+      "description": "Adds a small chance to evade attacks!",
+      "details": "Increases evade chance by 8%",
+      "category": "Defense"
     },
     {
       "itemID": "MoveSpeedUp",
       "displayName": "Mercury's Sandals",
-      "description": "Increases movement speed!"
+      "description": "Increases movement speed!",
+      "details": "Increases move speed by 12%",
+      "category": "Defense"
     },
     {
       "itemID": "IgnorePits",
       "displayName": "Hummingbird Feather",
-      "description": "Briefly hover over pits!"
+      "description": "Briefly hover over pits!",
+      "details": "Hover over pits for 2 seconds",
+      "category": "Defense"
     },
     {
       "itemID": "DashInvulnerability",
       "displayName": "Leemo's Leaf",
-      "description": "Evade all attacks while dashing!"
+      "description": "Evade all attacks while dashing!",
+      "details": "",
+      "category": "Defense"
     },
     {
       "itemID": "ShockShield",
       "displayName": "Lei's Drum",
-      "description": "Release a burst of lightning when taking damage!"
+      "description": "Release a burst of lightning when taking damage!",
+      "details": "Upon taking damage, enemies nearby are shocked. Has a 24 second cooldown",
+      "category": "Defense"
     },
     {
       "itemID": "BurnImmune",
       "displayName": "Super Sunscreen",
-      "description": "Prevents burn status effect!"
+      "description": "Prevents burn status effect!",
+      "details": "",
+      "category": "Defense"
     },
     {
       "itemID": "PoisonImmune",
       "displayName": "Gummy Vitamins",
-      "description": "Prevents poison status effect!"
+      "description": "Prevents poison status effect!",
+      "details": "",
+      "category": "Defense"
     },
     {
       "itemID": "FreezeImmune",
       "displayName": "Fuzzy Handwarmers",
-      "description": "Prevents freeze status effect!"
+      "description": "Prevents freeze status effect!",
+      "details": "",
+      "category": "Defense"
     },
     {
       "itemID": "EvadeCrit",
       "displayName": "Puffy Parka",
-      "description": "Evade all critical hits!"
+      "description": "Evade all critical hits!",
+      "details": "",
+      "category": "Defense"
     },
     {
       "itemID": "CapDamageItem",
       "displayName": "Limited Edition Robe",
-      "description": "Reduces damage received to a maximum of 10% of max health!"
+      "description": "Reduces damage received to a maximum of 10% of max health!",
+      "details": "",
+      "category": "Defense"
     },
     {
       "itemID": "HealOnPlatPickup",
       "displayName": "Jewelry Box",
-      "description": "Picking up chaos gems heals for a small amount! Excludes gems collected from Council members."
+      "description": "Picking up chaos gems heals for a small amount! Excludes gems collected from Council members.",
+      "details": "Recover 3 hp per gem picked up outside of boss levels. You also have to be alive and have greater than 0 health (seems like a bugfix)",
+      "category": "Defense"
     },
     {
       "itemID": "SevenFlushAir",
       "displayName": "Neve's Quartz",
-      "description": "Holding seven air arcana increases movement speed and evasion! All arcana also slows foes!"
+      "description": "Holding seven air arcana increases movement speed and evasion! All arcana also slows foes!",
+      "details": "Increases speed by 30%. Increases evade chance by 20%. Chance to burn increased to 100%. Burn level increased by 1. Must be holding 7 fire arcana",
+      "category": "Defense"
     },
     {
       "itemID": "SevenFlushEarth",
       "displayName": "Neve's Emerald",
-      "description": "Holding seven earth arcana increase health and armor and lowers stun and knockback!"
+      "description": "Holding seven earth arcana increase health and armor and lowers stun and knockback!",
+      "details": "Increases health by 20%. Increases armor by 20%. Ignores hit stun and knockback statuses. Must be holding 7 earth arcana",
+      "category": "Defense"
     },
     {
       "itemID": "PaperDefense",
       "displayName": "Thesis on Defense",
-      "description": "Every point of damage received adds a page to this thesis! Every 200 pages reduces all damage taken by 1! (Maximum 1000 pages)"
+      "description": "Every point of damage received adds a page to this thesis! Every 200 pages reduces all damage taken by 1! (Maximum 600 pages)",
+      "details": "Every hit adds 0.005 to damage reduction but value is reduced to it's integer (0-199 = 0, 200-399 pages = 1, 400-599 pages = 2, 600+ pages = 3)",
+      "category": "Defense"
     },
     {
       "itemID": "SequenceDefense",
       "displayName": "Memory Chainmail",
-      "description": "Memorizes the last three attacks taken and reduces damage from attacks of the same type!"
+      "description": "Memorizes the last three attacks taken and reduces damage from attacks of the same type!",
+      "details": "Reduces damage taken from the last 3 elements by 16%",
+      "category": "Defense"
     },
     {
       "itemID": "OverdriveDefense",
       "displayName": "Cushioned Flip-flops",
-      "description": "Damage received is expended from your signature meter while you have sufficient charge to shield the attack!"
+      "description": "Damage received is expended from your signature meter while you have sufficient charge to shield the attack!",
+      "details": "",
+      "category": "Defense"
     },
     {
       "itemID": "ReflectProjectileShield",
       "displayName": "Mirror Shield",
-      "description": "Summons a shield that reflects one projectile! Shield breaks after reflect and respawns on a timer."
+      "description": "Summons a shield that reflects one projectile! Shield breaks after reflect and respawns on a timer.",
+      "details": "Gives a shield. Respawns after 18 seconds of being hit once",
+      "category": "Defense"
     },
     {
       "itemID": "ShieldWithOverdriveTimeOut",
       "displayName": "Ring of Recycling",
-      "description": "Gain a shield every time a charged signature is not activated and times out!"
+      "description": "Gain a shield every time a charged signature is not activated and times out!",
+      "details": "",
+      "category": "Defense"
     },
     {
       "itemID": "OverhealGrantsShield",
       "displayName": "Takeout Box",
-      "description": "When healed for more than your maximum health, gain a shield equal to half of the excess heal amount!"
+      "description": "When healed for more than your maximum health, gain a shield equal to half of the excess heal amount!",
+      "details": "Overhealing grants a shield at 50% of the overhealed value",
+      "category": "Defense"
     },
     {
       "itemID": "HealWithMapReveal",
       "displayName": "Pathfinder's Knapsack",
-      "description": "On clearing a stage, receive a heal based on the map reveal percentage!"
+      "description": "On clearing a stage, receive a heal based on the map reveal percentage!",
+      "details": "Gain 0.1% per percentage of the map revealed (10% max healed with 100% map uncovered)",
+      "category": "Defense"
     },
     {
       "itemID": "EnhanceDash",
       "displayName": "Greased Boots",
-      "description": "Increases the distances traveled by dash arcana!"
+      "description": "Increases the distances traveled by dash arcana!",
+      "details": "Lowers all cooldowns for dash arcana by 25% and adds an extra dash charge",
+      "category": "Defense"
     },
     {
       "itemID": "FireResistanceUp",
       "displayName": "Resolute Svalinn",
-      "description": "Increases resistance to fire based attacks!"
+      "description": "Increases resistance to fire based attacks!",
+      "details": "Increases fire resistance by 25%",
+      "category": "Defense"
     },
     {
       "itemID": "WaterResistanceUp",
       "displayName": "Three Gorges Bulwark",
-      "description": "Increases resistance to water based attacks!"
+      "description": "Increases resistance to water based attacks!",
+      "details": "Increases water resistance by 25%",
+      "category": "Defense"
     },
     {
       "itemID": "EarthResistanceUp",
       "displayName": "Auger of Poetry",
-      "description": "Increases resistance to earth based attacks!"
+      "description": "Increases resistance to earth based attacks!",
+      "details": "Increases earth resistance by 25%",
+      "category": "Defense"
     },
     {
       "itemID": "ElementalResistanceWithArcana",
       "displayName": "Tracking Suit",
-      "description": "Arcana of matching elements increases resistance to that element! Requires two or more arcana of the same element."
+      "description": "Arcana of matching elements increases resistance to that element! Requires two or more arcana of the same element.",
+      "details": "When holding 2 or more of the same element, each adds 5% resistance to that element. ",
+      "category": "Defense"
     },
     {
       "itemID": "DefenseUpOnTakeDamage",
       "displayName": "Calcifying Bonemail",
-      "description": "Increases armor for a short duration after taking damage!"
+      "description": "Increases armor for a short duration after taking damage!",
+      "details": "Increases armor by 20% for 3 seconds after getting hit",
+      "category": "Defense"
     },
     {
       "itemID": "IncreaseBuffDuration",
       "displayName": "Demi's Teapot",
-      "description": "Increases the duration of buff arcana!"
+      "description": "Increases the duration of buff arcana!",
+      "details": "Increases the duration of buff arcana by 40%",
+      "category": "Defense"
     },
     {
       "itemID": "MoveSpeedUpPerCD",
       "displayName": "Spell Thief's Socks",
-      "description": "Increase movement speed everytime an arcana is used! Speed is increased for each arcana on cooldown."
+      "description": "Increase movement speed everytime an arcana is used! Speed is increased for each arcana on cooldown.",
+      "details": "For each arcana on cooldown, increase speed by 10%. Increase lasts for 2.5 seconds",
+      "category": "Defense"
     },
     {
       "itemID": "OverdriveToHealth",
       "displayName": "Regenerative Inkwell",
-      "description": "Using a fully charged signature arcana heals you instead of producing a signature spell!"
+      "description": "Using a fully charged signature arcana heals you instead of producing a signature spell!",
+      "details": "Heals 5% of health instead of casting overdrive spell",
+      "category": "Defense"
     },
     {
       "itemID": "ParrySidestep",
       "displayName": "Bracers of the Beast",
-      "description": "Pressing forward into an attack immediately before impact allows you to guard the attack!"
+      "description": "Pressing forward into an attack immediately before impact allows you to guard the attack!",
+      "details": "Parrying an attack gains 15% overdrive. Must be within 45 degrees of the front of the attack to proc",
+      "category": "Defense"
     },
     {
       "itemID": "ResurrectArcanaLoss",
       "displayName": "Scissors of Vitality",
-      "description": "Sacrifice all standard arcana in your hand to revive from defeat!"
+      "description": "Sacrifice all standard arcana in your hand to revive from defeat!",
+      "details": "Removes all standard arcana after a death, resurrects, and gives back 5% of health per sacrificed arcana (Excludes basic, dash and signature)",
+      "category": "Defense"
     },
     {
       "itemID": "DestroyEnemyProjectilesOnHit",
       "displayName": "Deafening Cymbals",
-      "description": "Destroys all projectiles in the area when hit by a projectile!"
+      "description": "Destroys all projectiles in the area when hit by a projectile!",
+      "details": "Destroys projectiles nearby when hit. Has a 12 second cooldown",
+      "category": "Defense"
     },
     {
       "itemID": "ArmorUpWithInventoryCount",
       "displayName": "Heavy Travel Jacket",
-      "description": "Increases armor for each relic held!"
+      "description": "Increases armor for each relic held!",
+      "details": "Increases armor by 1%. Each relic adds 1% armor for each relic in inventory",
+      "category": "Defense"
     },
     {
       "itemID": "EvadeUpAtLowHealth",
       "displayName": "Calvin's Sandy Shoes",
-      "description": "Adds a chance to evade while at low health!"
+      "description": "Adds a chance to evade while at low health!",
+      "details": "Increases chance to evade by 25% when health is 30% or lower",
+      "category": "Defense"
     },
     {
       "itemID": "MindControlOnHurt",
       "displayName": "Charming Teddy Bear",
-      "description": "Adds a chance to charm enemies when taking damage!"
+      "description": "Adds a chance to charm enemies when taking damage!",
+      "details": "",
+      "category": "Defense"
     },
     {
       "itemID": "DeathProofCrown",
       "displayName": "Kali's Flower Diadem",
-      "description": "When taking damage that would defeat you, gain full signature charge and briefly become immune to defeat!"
+      "description": "When taking damage that would defeat you, gain full signature charge and briefly become immune to defeat!",
+      "details": "",
+      "category": "Defense"
     },
     {
       "itemID": "RootShield",
       "displayName": "Reactive Vinemail",
-      "description": "Releases a grove of rooting vines when taking damage!"
+      "description": "Releases a grove of rooting vines when taking damage!",
+      "details": "",
+      "category": "Defense"
     },
     {
       "itemID": "PotionPack",
       "displayName": "Pazu's Favorite Hat",
-      "description": "Revive with low health when defeated! This relic creates health orbs when dropped and is destroyed on use."
+      "description": "Revive with low health when defeated! This relic creates health orbs when dropped and is destroyed on use.",
+      "details": "",
+      "category": "Defense"
     },
     {
       "itemID": "HealDropBoostItem",
       "displayName": "Raspberry Cookie Box",
-      "description": "Health orbs drop more frequently!"
+      "description": "Health orbs drop more frequently!",
+      "details": "",
+      "category": "Defense"
     },
     {
       "itemID": "HealOnCrit",
       "displayName": "Vampire's Eyeglasses",
-      "description": "Regenerate health every time you land a critical hit!"
+      "description": "Regenerate health every time you land a critical hit!",
+      "details": "",
+      "category": "Defense"
     },
     {
       "itemID": "InvulnerableOnMultiHurt",
       "displayName": "Stygian Turtle Shell",
-      "description": "Briefly become invulnerable after taking damage in quick succession!"
+      "description": "Briefly become invulnerable after taking damage in quick succession!",
+      "details": "",
+      "category": "Defense"
     },
     {
       "itemID": "StatueCamo",
       "displayName": "Elven Ears",
-      "description": "Remaining motionless for a short time causes you to disappear from sight!"
+      "description": "Remaining motionless for a short time causes you to disappear from sight!",
+      "details": "",
+      "category": "Defense"
     },
     {
       "itemID": "MeleeBasicNegatesProjectiles",
       "displayName": "Flak Gauntlet",
-      "description": "Allows you to destroy enemy projectiles with melee basic arcana!"
+      "description": "Allows you to destroy enemy projectiles with melee basic arcana!",
+      "details": "",
+      "category": "Defense"
     },
     {
       "itemID": "MaxHealthUpOnTakeDamage",
       "displayName": "Super Carrot Cake",
-      "description": "Taking damage increases your max health up to a certain limit!"
+      "description": "Taking damage increases your max health up to a certain limit!",
+      "details": "",
+      "category": "Defense"
     },
     {
       "itemID": "MaxHealthUpOnHeal",
       "displayName": "Tea of Mercy",
-      "description": "All healing increases your max health up to a certain limit!"
+      "description": "All healing increases your max health up to a certain limit!",
+      "details": "",
+      "category": "Defense"
     },
 
 
@@ -581,232 +684,324 @@
     {
       "itemID": "ReduceCooldown",
       "displayName": "Roxel's Pendulum",
-      "description": "Reduces all cooldowns!"
+      "description": "Reduces all cooldowns!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "TozysPocketWatch",
       "displayName": "Tozy's Pocket Watch",
-      "description": "Designed by Artisan Curt 'Tozy' Toczydlowski, this relic reduces cooldowns but also reduces signature charge rate!"
+      "description": "Designed by Artisan Curt 'Tozy' Toczydlowski, this relic reduces cooldowns but also reduces signature charge rate!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "KillsLowerCDs",
       "displayName": "Destructive Abacus",
-      "description": "Defeating foes lowers active cooldowns!"
+      "description": "Defeating foes lowers active cooldowns!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "KnockbackUp",
       "displayName": "Mystic Monopole",
-      "description": "Increases knockback when striking foes!"
+      "description": "Increases knockback when striking foes!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "FireChargeFamiliarItem",
       "displayName": "Igniting Sprite Vesa",
-      "description": "Summons a sprite that burns enemies! Only one sprite can be held at a time."
+      "description": "Summons a sprite that burns enemies! Only one sprite can be held at a time.",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "AirChargeFamiliarItem",
       "displayName": "Blasting Sprite Aura",
-      "description": "Summons a sprite that slows enemies! Only one sprite can be held at a time."
+      "description": "Summons a sprite that slows enemies! Only one sprite can be held at a time.",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "EarthChargeFamiliarItem",
       "displayName": "Plaguing Sprite Dria",
-      "description": "Summons a sprite that poisons enemies! Only one sprite can be held at a time."
+      "description": "Summons a sprite that poisons enemies! Only one sprite can be held at a time.",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "LightningChargeFamiliarItem",
       "displayName": "Sparking Sprite Etra",
-      "description": "Summons a sprite that shocks enemies! Only one sprite can be held at a time."
+      "description": "Summons a sprite that shocks enemies! Only one sprite can be held at a time.",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "WaterChargeFamiliarItem",
       "displayName": "Freezing Sprite Naya",
-      "description": "Summons a sprite that freezes enemies! Only one sprite can be held at a time."
+      "description": "Summons a sprite that freezes enemies! Only one sprite can be held at a time.",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "OverdriveBuildDecayDown",
       "displayName": "Surefire Rocket",
-      "description": "Signature charge no longer decays while building up!"
+      "description": "Signature charge no longer decays while building up!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "OverdriveDurationUp",
       "displayName": "Infinity Marble",
-      "description": "Signature charge stays active until used!"
+      "description": "Signature charge stays active until used!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "OverdriveMaxAtLowHealth",
       "displayName": "Hyperbolic Train",
-      "description": "Signature charges faster at low health!"
+      "description": "Signature charges faster at low health!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "HealOverdriveItem",
       "displayName": "Albert's Formula",
-      "description": "Receive signature charge when healed!"
+      "description": "Receive signature charge when healed!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "SummonDamageItem",
       "displayName": "Grimoire of Ruin",
-      "description": "Increases the damage of summoned agents!"
+      "description": "Increases the damage of summoned agents!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "SummonCountItem",
       "displayName": "Pop-up Primer",
-      "description": "Increases the number of summoned agents, but lowers their health!"
+      "description": "Increases the number of summoned agents, but lowers their health!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "SummonDurationItem",
       "displayName": "Yuna's Storybook",
-      "description": "Increases the duration of summoned agents!"
+      "description": "Increases the duration of summoned agents!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "ExtraBasicCombo",
       "displayName": "Combo Gloves",
-      "description": "Basic arcana have an extra combo!"
+      "description": "Basic arcana have an extra combo!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "AutoBasicCombo",
       "displayName": "Evening Gloves",
-      "description": "Basic arcana chains are completed automatically!"
+      "description": "Basic arcana chains are completed automatically!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "ExtraSkillCharge",
       "displayName": "Ring of Reserves",
-      "description": "Adds more uses to all multi-use arcana!"
+      "description": "Adds more uses to all multi-use arcana!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "SevenFlushWater",
       "displayName": "Neve's Sapphire",
-      "description": "Holding seven water arcana reduces all cooldowns and increases healing!"
+      "description": "Holding seven water arcana reduces all cooldowns and increases healing!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "AltElementLowersCD",
       "displayName": "Spice Rack",
-      "description": "Using an arcana of a different element reduces the cooldown of the previously used arcana!"
+      "description": "Using an arcana of a different element reduces the cooldown of the previously used arcana!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "GoldUp",
       "displayName": "Glove of Midas",
-      "description": "Increase gold gain for all wizards! Multiple gloves do not stack."
+      "description": "Increase gold gain for all wizards! Multiple gloves do not stack.",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "GoldOnTakeDamage",
       "displayName": "Tears of Midas",
-      "description": "Gain gold when taking damage!"
+      "description": "Gain gold when taking damage!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "StageMap",
       "displayName": "Pathfinder's Map",
-      "description": "Reveals the layout and main points of interest of the Chaos Trials!"
+      "description": "Reveals the layout and main points of interest of the Chaos Trials!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "RainbowTrail",
       "displayName": "Unicorn Tail",
-      "description": "Rainbows!"
+      "description": "Rainbows!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "RelicDiscount",
       "displayName": "Relic Rewards Card",
-      "description": "All gold costs for relics are discounted!"
+      "description": "All gold costs for relics are discounted!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "SpellDiscount",
       "displayName": "Arcana Rewards Card",
-      "description": "All gold costs for arcana are discounted!"
+      "description": "All gold costs for arcana are discounted!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "ResetCDChance",
       "displayName": "Nocturnal Sundial",
-      "description": "Adds a chance that an arcana will not go on cooldown after use!"
+      "description": "Adds a chance that an arcana will not go on cooldown after use!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "DashCancelLowersCD",
       "displayName": "Elemental Pointes",
-      "description": "Using a dash arcana immediately after another arcana lowers cooldowns for all arcana of the same element as your dash!"
+      "description": "Using a dash arcana immediately after another arcana lowers cooldowns for all arcana of the same element as your dash!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "FreeCooldownsAtLowHealth",
       "displayName": "Phyyrnx's Hourglass",
-      "description": "Designed by Artisan PerdyDarnSavvy, this relic activates when taking damage at low health and briefly removes the cooldown on all arcana!"
+      "description": "Designed by Artisan PerdyDarnSavvy, this relic activates when taking damage at low health and briefly removes the cooldown on all arcana!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "HorseMaskItem",
       "displayName": "Equestricap",
-      "description": "Designed by Artisan Tacobowl8, this relic allows you to look quite dashing as you gallop to max speed with ease!"
+      "description": "Designed by Artisan Tacobowl8, this relic allows you to look quite dashing as you gallop to max speed with ease!",
+      "details": "",
+      "category": "Defense"
     },
     {
       "itemID": "OverdriveOnTakeDamage",
       "displayName": "Absorption Coil",
-      "description": "Gain signature charge when taking damage!"
+      "description": "Gain signature charge when taking damage!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "IgnoreHurtDuringCast",
       "displayName": "Sano's Headband",
-      "description": "You can no longer be interrupted while activating arcana!"
+      "description": "You can no longer be interrupted while activating arcana!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "StoreRestock",
       "displayName": "Supply Crate",
-      "description": "The relic and arcana stores instantly restock after a purchase! Health potions are in short supply and are not restocked."
+      "description": "The relic and arcana stores instantly restock after a purchase! Health potions are in short supply and are not restocked.",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "SlowEnemyProjectiles",
       "displayName": "Dated Sunglasses",
-      "description": "Enemy projectiles move slower, giving you more time to react!"
+      "description": "Enemy projectiles move slower, giving you more time to react!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "AlwaysWinProjectiles",
       "displayName": "Reinforced Bracers",
-      "description": "Your projectiles destroy any other projectiles they strike!"
+      "description": "Your projectiles destroy any other projectiles they strike!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "BuffOnProjectileNegate",
       "displayName": "Bladed Buckler",
-      "description": "Destroying an enemy projectile grants signature charge energy!"
+      "description": "Destroying an enemy projectile grants signature charge energy!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "EnemyHPBars",
       "displayName": "Chaos Scanner",
-      "description": "Reveals health bars for all enemies in the Chaos Trials!"
+      "description": "Reveals health bars for all enemies in the Chaos Trials!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "FreePurchaseChance",
       "displayName": "Raffle Ticket",
-      "description": "Adds a chance that an item purchased in the Chaos Trials will be free of charge!"
+      "description": "Adds a chance that an item purchased in the Chaos Trials will be free of charge!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "PortableTreasure",
       "displayName": "C-99 Piggy Bank",
-      "description": "Gets heavier as you progress through the trials! Drop from inventory to open."
+      "description": "Gets heavier as you progress through the trials! Drop from inventory to open.",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "PlateEnemyPreventSkills",
       "displayName": "Conqueror's Helmet",
-      "description": "All Knights and Lancers have their spells limited! Only one Conqueror item can be in effect at a time."
+      "description": "All Knights and Lancers have their spells limited! Only one Conqueror item can be in effect at a time.",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "LeatherEnemyPreventSkills",
       "displayName": "Conqueror's Belt",
-      "description": "All Rogues and Archers have their spells limited! Only one Conqueror item can be in effect at a time."
+      "description": "All Rogues and Archers have their spells limited! Only one Conqueror item can be in effect at a time.",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "ClothEnemyPreventSkills",
       "displayName": "Conqueror's Cloak",
-      "description": "All Mages and Summoners have their spells limited! Only one Conqueror item can be in effect at a time."
+      "description": "All Mages and Summoners have their spells limited! Only one Conqueror item can be in effect at a time.",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "GoldOnKillStreak",
       "displayName": "Journal of Midas",
-      "description": "Gain additional gold when consecutively defeating enemies without taking damage!"
+      "description": "Gain additional gold when consecutively defeating enemies without taking damage!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "FreeDashChargesOnKillChance",
       "displayName": "Boots of Frenzy",
-      "description": "Defeating enemies grants a chance to temporarily add unlimited charges to your movement arcana!"
+      "description": "Defeating enemies grants a chance to temporarily add unlimited charges to your movement arcana!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "BuyWithHP",
       "displayName": "Wallet of Vigor",
-      "description": "Enables you to purchase items with health when you don't have sufficient gold!"
+      "description": "Enables you to purchase items with health when you don't have sufficient gold!",
+      "details": "",
+      "category": "Miscellaneous"
     },
 
 
@@ -814,32 +1009,44 @@
     {
       "itemID": "FrostFlameStanza",
       "displayName": "Poem of Fiery Rime",
-      "description": "Increases fire and ice damage! Adds a chance to freeze and burn foes to fire and ice arcana, respectively."
+      "description": "Increases fire and ice damage! Adds a chance to freeze and burn foes to fire and ice arcana, respectively.",
+      "details": "",
+      "category": "Attack"
     },
     {
       "itemID": "DoctorPrescription",
       "displayName": "Messy Prescription",
-      "description": "Increases healing received from all sources!"
+      "description": "Increases healing received from all sources!",
+      "details": "",
+      "category": "Doctor"
     },
     {
       "itemID": "DoctorPlacebo",
       "displayName": "Critical Placebos",
-      "description": "Makes you believe all your attacks result in critical hits!"
+      "description": "Makes you believe all your attacks result in critical hits!",
+      "details": "",
+      "category": "Doctor"
     },
     {
       "itemID": "DoctorDiscount",
       "displayName": "Health Care Card",
-      "description": "Receive a discount whenever you purchase potions from the merchant!"
+      "description": "Receive a discount whenever you purchase potions from the merchant!",
+      "details": "",
+      "category": "Doctor"
     },
     {
       "itemID": "DoctorVial",
       "displayName": "Renewing Potion Vial",
-      "description": "Regain a small amount of health when teleporting to the next area!"
+      "description": "Regain a small amount of health when teleporting to the next area!",
+      "details": "",
+      "category": "Doctor"
     },
     {
       "itemID": "WanderersSet",
       "displayName": "Perfect Time Crystal",
-      "description": "Signature damage, charge rate, and decay rate increased!"
+      "description": "Signature damage, charge rate, and decay rate increased!",
+      "details": "",
+      "category": "Attack"
     },
 
 
@@ -847,150 +1054,205 @@
     {
       "itemID": "ResurrectRing",
       "displayName": "Horned Halo",
-      "description": "Revive with low health when defeated but consumes half of current health when picked up! This relic is destroyed on use."
+      "description": "Revive with low health when defeated but consumes half of current health when picked up! This relic is destroyed on use.",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "Vampiricism",
       "displayName": "Vampire's Fangs",
-      "description": "Defeating enemies regenerates health but max health is reduced!"
+      "description": "Defeating enemies regenerates health but max health is reduced!",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "GlassCannon",
       "displayName": "Glass Cannon",
-      "description": "Damage increased but max health is reduced!"
+      "description": "Damage increased but max health is reduced!",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "DoubleToil",
       "displayName": "Double Toil",
-      "description": "Reduces cooldowns by half but receive double damage!"
+      "description": "Reduces cooldowns by half but receive double damage!",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "DoubleTrouble",
       "displayName": "Double Trouble",
-      "description": "Deal double damage but receive double damage!"
+      "description": "Deal double damage but receive double damage!",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "IgnoreDashSlide",
       "displayName": "Flashy Boots",
-      "description": "Allows you to triple dash but lowers movement speed!"
+      "description": "Allows you to triple dash but lowers movement speed!",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "ArmorUpLoseGoldOnHit",
       "displayName": "Armor of Greed",
-      "description": "Grants a significant boost in armor! Lose gold every time you are hit."
+      "description": "Grants a significant boost in armor! Lose gold every time you are hit.",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "CursedSeal",
       "displayName": "Anchor of Burden",
-      "description": "Damage and stuns are increased but movement speed is reduced for each cursed relic owned!"
+      "description": "Damage and stuns are increased but movement speed is reduced for each cursed relic owned!",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "DamageUpVsBoss",
       "displayName": "Paronomasicon",
-      "description": "Your attacks on council members are more pun-ishing! Enemy attacks pack an extra pun-ch."
+      "description": "Your attacks on council members are more pun-ishing! Enemy attacks pack an extra pun-ch.",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "BasicDamageUpOtherDamageDown",
       "displayName": "Double Edged Cestus",
-      "description": "Increase basic arcana damage! All other damage decreased."
+      "description": "Increase basic arcana damage! All other damage decreased.",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "ArmorUpStorePriceUp",
       "displayName": "Golden Armor of Envy",
-      "description": "Increases armor but store prices are increased!"
+      "description": "Increases armor but store prices are increased!",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "DamageUpStorePriceUp",
       "displayName": "Golden Saber of Envy",
-      "description": "Increases damage but store prices are increased!"
+      "description": "Increases damage but store prices are increased!",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "EnemyHealthDownEnemyDamageUp",
       "displayName": "Abhorrent Cologne",
-      "description": "Enemies have less health, but enemy damage is increased!"
+      "description": "Enemies have less health, but enemy damage is increased!",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "PlayerEnemyCritChanceUp",
       "displayName": "Crimson Clover",
-      "description": "Critical hit chance is increased for you and all enemies!"
+      "description": "Critical hit chance is increased for you and all enemies!",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "ArmorUpDamageDown",
       "displayName": "Tortoise Shield",
-      "description": "Increases armor but decreases damage!"
+      "description": "Increases armor but decreases damage!",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "EnemyHealthDownPlayerHealthDown",
       "displayName": "Broken Plague Flask",
-      "description": "Enemy max health is lowered, but your health is lowered as well!"
+      "description": "Enemy max health is lowered, but your health is lowered as well!",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "HalfGlass",
       "displayName": "Tiny Crocodile Heart",
-      "description": "Reduces max health but increases max health for each enemy defeated!"
+      "description": "Reduces max health but increases max health for each enemy defeated!",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "FullHPOnStartNoHeals",
       "displayName": "Large Red Button",
-      "description": "Recover full health every time an exit portal is used! Max health is reduced and all healing has no effect."
+      "description": "Recover full health every time an exit portal is used! Max health is reduced and all healing has no effect.",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "HealOnStartZeroGold",
       "displayName": "Overpriced Insurance",
-      "description": "Expend all gold at the start of each stage and heal for a fraction of the expended amount!"
+      "description": "Expend all gold at the start of each stage and heal for a fraction of the expended amount!",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "WanderersDoll",
       "displayName": "Volatile Gemstone",
-      "description": "Signature charge rate and decay are increased dramatically but charged signature damage is reduced! Shell of the [<color=#FFCC00>Perfect Time Crystal</color>]."
+      "description": "Signature charge rate and decay are increased dramatically but charged signature damage is reduced! Shell of the <span class=\"pft\">Perfect Time Crystal</span>.",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "DamageUpNoOverdrive",
       "displayName": "Sharpened Stylus",
-      "description": "Increases damage but signature can no longer be charged!"
+      "description": "Increases damage but signature can no longer be charged!",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "FireStanza",
       "displayName": "Stanza of Flames",
-      "description": "All fire arcana cause burning but receive double damage from water spells! Second half of the [<color=#FFCC00>Poem of Fiery Rime</color>]."
+      "description": "All fire arcana cause burning but receive double damage from water spells! Second half of the <span class=\"fieryRime\">Poem of Fiery Rime</span>.",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "AttackSpeedItem",
       "displayName": "Silver Spinning Top",
-      "description": "Increases the activation speed of arcana but slows movement speed!"
+      "description": "Increases the activation speed of arcana but slows movement speed!",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "EvadeUpEnemyDamageUp",
       "displayName": "Nog's Heavenly Boots",
-      "description": "Adds a significant chance to evade attacks but receive double damage!"
+      "description": "Adds a significant chance to evade attacks but receive double damage!",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "BankLoan",
       "displayName": "Ominous Loan Note",
-      "description": "Immediately receive a large sum of gold! All gold gained, with interest, goes towards paying off this debt."
+      "description": "Immediately receive a large sum of gold! All gold gained, with interest, goes towards paying off this debt.",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "NoPlatinumAllGold",
       "displayName": "Alchemist's Stone",
-      "description": "All chaos gems gained during the Chaos Trials are transmuted into gold!"
+      "description": "All chaos gems gained during the Chaos Trials are transmuted into gold!",
+      "details": "",
+      "category": "Cursed"
     },
     {
       "itemID": "MaxHPDownRegenAtLowHP",
       "displayName": "Spiked Emergency Kit",
-      "description": "Regenerate health while at critically low health! Max health is reduced."
+      "description": "Regenerate health while at critically low health! Max health is reduced.",
+      "details": "",
+      "category": "Cursed"
     },
-
-
-
     {
       "itemID": "PlayerStart",
       "displayName": "Museum Ticket",
-      "description": "A ticket to Lanova Museum's newly opened Chaos Trials exhibit!"
+      "description": "A ticket to Lanova Museum's newly opened Chaos Trials exhibit!",
+      "details": "",
+      "category": "Miscellaneous"
     },
     {
       "itemID": "PlayerWin",
       "displayName": "Insignia of Legend",
-      "description": "A crest presented only to those who have cleared the Chaos Trials!"
+      "description": "A crest presented only to those who have cleared the Chaos Trials!",
+      "details": "",
+      "category": "Miscellaneous"
     }
   ]
 }
