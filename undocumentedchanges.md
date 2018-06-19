@@ -1,3 +1,6 @@
+# 1.033 Undocumented Changes
+[1.033 Patch Notes](https://www.reddit.com/r/WizardofLegend/comments/8s5boo/wizard_of_legend_v1033_build_randomizer_french/)
+
 # 1.031 Undocumented Changes
 [1.031 Patch Notes](https://www.reddit.com/r/WizardofLegend/comments/8p5d26/wizard_of_legend_v1031_patch_notes/)
 
